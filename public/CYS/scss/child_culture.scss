@@ -1,0 +1,37 @@
+#childCulture {
+    .container {
+        .gap {
+            .title {}
+            .content {
+                .top-box {
+                    .sub-title {
+                        h2 {}
+                    }
+                    .category-sub {
+                        .category-title {
+                            h3 {}
+                        }
+                        .category-menu {
+                            >ul {
+                                li {
+                                    
+                                }
+                            }
+                        }
+                    }
+                    .slide-container {
+                        .slide-view {
+                            .slide-wrap {
+                                .slide {
+                                    img {}
+                                }
+                            }
+                        }
+                    }
+                }
+                .mid-box {}
+                .bot-box {}
+            }
+        }
+    }
+}

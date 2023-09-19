@@ -1,0 +1,122 @@
+#section1 {
+    width: 100%;
+    .container {
+        width: 100%;
+        .gap {
+            width: 100%;
+            .content {
+                width: 100%;
+                .slide-container {
+                    width: 100%;
+                    overflow: hidden;
+                    position: relative;
+                    .slide-view {
+                        position: relative;
+                        width: 100%;
+                        max-width: 1600px;
+                        margin: 0 auto;
+                        .slide-wrap {
+                            position: relative;
+                            width: 100% * 20;
+                            margin-left: -100%;
+                            height: 650.08px;
+                            display: flex;
+                            .slide {
+                                width: 100%;
+                                position: relative;
+                                &.animate {
+                                    .slide-text {
+                                        opacity: 1;
+                                        span {animation: textAni 0.5s 0.2s ease-in-out normal both;}
+                                        p{animation: textAni 0.5s 0.4s ease-in-out normal both;}
+                                    }
+                                }
+                                .slide-text {
+                                    opacity: 0;
+                                    position: absolute;
+                                    left: calc(50% - 640px);
+                                    top: 60px;
+                                    line-height: 1.2;
+                                    color: #fff;
+                                    span {font-size: 30px;display: block;}
+                                    p {
+                                        margin-top: 18px;
+                                        font-size: 18px;
+                                        font-weight: 300;
+                                    }
+                                }
+                            }
+                        }
+                        .control-wrap {
+                            position: relative;
+                            width: 1280px;
+                            margin: 0 auto;
+                            .slide-control-box {
+                                position: absolute;
+                                z-index: 10;
+                                right: 0;
+                                bottom: 0;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 170px;
+                                height: 50px;
+                                background-color: rgba(0,0,0,0.5);
+                                button {
+                                    width: 22px;
+                                    height: 26px;
+                                    padding: 0;
+                                    font-size: 0;
+                                    line-height: 0;
+                                    border: 0;
+                                    background-color: transparent;
+                                    background-repeat: no-repeat;
+                                    background-image: url(../img/intro/new2023_icons.png);
+                                    cursor: pointer;
+                                }
+                                .prev-btn {background-position: 6px 6px;}
+                                .page-nation-box {
+                                    display: inline-block;
+                                    padding: 0 8px;
+                                    margin-top: -1px;
+                                    span {
+                                        display: inline-block;
+                                        vertical-align: middle;
+                                        font-size: 18px;
+                                        line-height: 1.425;
+                                    }
+                                    .now-slide {
+                                        color: #fff;
+                                    }
+                                    i {
+                                        padding: 0 5px;
+                                        font-size: 14px;
+                                        color: #999;
+                                        font-weight: 300;
+                                    }
+                                    .total-slide {
+                                        color: #999;
+                                    }
+                                }
+                                .next-btn {background-position: -94px 6px;}
+                                .control-btn {    
+                                    margin-left: 10px;
+                                    background-position: -194px 6px;
+                                        &.on {
+                                            background-position: -294px 6px;
+                                        }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes textAni {
+    0% {opacity: 0; transform: translate(0, 30px);}
+    100% {opacity: 1; transform: translate(0, 0);}
+}
