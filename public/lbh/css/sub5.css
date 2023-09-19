@@ -1,0 +1,30 @@
+#sub5 {
+  width: 100%;
+}
+#sub5 .container {
+  width: 100%;
+  min-height: 600px;
+}
+#sub5 .container .sub-nav {
+  background: #fff;
+  line-height: 40px;
+  position: relative;
+}
+#sub5 .container .sub-nav .sub-nav-list {
+  margin: 0 auto;
+  width: 1120px;
+  height: 40px;
+}
+#sub5 .container .sub-nav .sub-nav-list li {
+  display: inline-block;
+  font-size: 11px;
+  padding-right: 8px;
+  color: #333;
+  position: relative;
+}
+#sub5 .container .sub-nav .sub-nav-list li a {
+  position: relative;
+  color: #666;
+  font-size: 50px;
+  font-weight: 400;
+}

@@ -1,0 +1,131 @@
+#section11 {
+  width: 100%;
+}
+#section11 .container {
+  width: 100%;
+  max-width: 1280px;
+  height: 721.25px;
+}
+#section11 .container .title-box {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 110px;
+  padding-bottom: 50px;
+  margin: 50px 0 0 350px;
+}
+#section11 .container .title-box h2 {
+  font-size: 50px;
+  color: #000;
+  font-weight: 700;
+  font-family: "Noto Serif KR";
+}
+#section11 .container .title-box a {
+  margin-left: auto;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000;
+  text-decoration: underline;
+}
+#section11 .container .content {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 50px;
+  margin: 50px 0 0 350px;
+}
+#section11 .container .content .left-box {
+  position: relative;
+  width: 520px;
+  height: 600px;
+}
+#section11 .container .content .left-box img {
+  width: 100%;
+  transition: transform 0.3s;
+}
+#section11 .container .content .left-box .text-box {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 40px;
+  width: 100%;
+  height: 110px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+#section11 .container .content .left-box .text-box .p1 {
+  font-size: 24px;
+  color: #111;
+  font-weight: 500;
+  font-family: "Noto Sans KR";
+}
+#section11 .container .content .left-box .text-box .p2 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #404040;
+  font-weight: 300;
+  font-family: "Noto Sans KR";
+}
+#section11 .container .content .right-box {
+  display: flex;
+  margin-left: 20px;
+  width: 740px;
+}
+#section11 .container .content .right-box .right-left {
+  width: 370px;
+}
+#section11 .container .content .right-box .right-left img {
+  width: 370px;
+  height: 300px;
+  transition: transform 0.3s;
+}
+#section11 .container .content .right-box .right-left a {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  width: 370px;
+  height: 300px;
+}
+#section11 .container .content .right-box .right-left a img {
+  width: 370px;
+  height: 300px;
+  transition: transform 0.3s;
+}
+#section11 .container .content .right-box .right-right {
+  width: 370px;
+}
+#section11 .container .content .right-box .right-right a {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  width: 370px;
+  height: 300px;
+}
+#section11 .container .content .right-box .right-right a img {
+  width: 370px;
+  height: 300px;
+  transition: transform 0.3s;
+}
+#section11 .container .content .right-box .right-right .text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 370px;
+  height: 300px;
+  background-color: rgba(248, 248, 248, 0.6);
+}
+#section11 .container .content .right-box .right-right .text-box p {
+  font-size: 24px;
+  font-family: "Noto Sans KR";
+  color: #000;
+  line-height: 1.7;
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.6s;
+}

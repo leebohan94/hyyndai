@@ -1,0 +1,92 @@
+#header{
+    width: 100%;
+    .container{
+        width: 100%;
+        max-width: 1360px;
+        margin: 0 auto;
+        padding: 0 40px;
+        .gap{width: 100%;
+            .title{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .title-up{
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 116px;
+                    display: flex;
+                    width: 100%;
+                    .left{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        ul{
+                            display: flex;
+                            li{
+                               &:nth-child(1){
+                                img{
+                                    padding: 0 15px 0 0 ;
+                                    width: auto;
+                                }
+                               }
+                               &:nth-child(2){
+                                img{
+                                    width: auto;
+                                }
+                               } 
+                            }
+                        }
+                    }
+                    .center{
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0 0 0 30px;
+                        width: 540.156px;
+                        height: 116px;
+                        display: flex;
+                        label{
+                            width: 100%;
+                            input{
+                                width:460px ;
+                                height: 40px;
+                            }
+                        }
+                        h1{
+                            a{
+                                img{
+
+                                }
+                            }
+                        }
+                    }
+                    .right{
+                        ul{
+                            li{
+                                h5{}
+                                h3{}
+                                &:nth-child(1){
+                                    h2{}
+                                    img{}
+                                }
+                                &:nth-child(3){
+                                    h4{}
+                                    img{}
+                                }
+                            }
+                        }
+                    }
+                }
+                .title-down{
+                    .left{
+                        ul{
+                            li{
+                                img{}
+                                h2{}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

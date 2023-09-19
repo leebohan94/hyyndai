@@ -1,0 +1,137 @@
+#section11{
+    width: 100%;
+    .container{
+        width: 100%;
+        max-width: 1280px;
+        height: 721.25px;
+        .title-box{
+            width: 100%;
+            max-width: 1280px;
+            display: flex;
+            align-items: flex-end;
+            padding-top: 110px;
+            padding-bottom: 50px;
+            margin: 50px 0 0 350px;
+            h2{
+                font-size: 50px;
+                color: #000;
+                font-weight: 700;
+                font-family: "Noto Serif KR";
+            }
+            a{
+                margin-left: auto;
+                font-weight: 300;
+                font-size: 18px;
+                color: #000;
+                text-decoration: underline;
+            }
+        }
+        .content{
+            width: 100%;
+            max-width: 1280px;
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 50px;
+            margin: 50px 0 0 350px;
+            .left-box{
+                // overflow: hidden;
+                position: relative;
+                width: 520px;
+                height: 600px;
+                img{
+                    width: 100%;
+                    transition: transform 0.3s;
+                }
+                .text-box{
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    padding: 0 40px;
+                    width: 100%;
+                    height: 110px;
+                    background-color: rgba(255,255,255,0.6);
+                    .p1{
+                        font-size: 24px;
+                        color: #111;
+                        font-weight: 500;
+                        font-family: 'Noto Sans KR';
+                        // animation-delay: 0.2s;
+                        // -webkit-animation-delay: 0.2s;
+                    }
+                    .p2{
+                        margin-top: 10px;
+                        font-size: 20px;
+                        color: #404040;
+                        font-weight: 300;
+                        font-family: 'Noto Sans KR';
+                        // animation-delay: 0.4s;
+                        // -webkit-animation-delay: 0.4s;
+                    }
+           
+                }
+            }
+            .right-box{
+                display: flex;
+                margin-left: 20px;
+                width: 740px;
+                .right-left{
+                    width: 370px;
+                    img{
+                        width: 370px;
+                        height: 300px;
+                        transition: transform 0.3s;
+                    }
+                    a{
+                        overflow: hidden;
+                        position: relative;
+                        display: block;
+                        width: 370px;
+                        height: 300px;
+                        img{
+                            width: 370px;
+                            height: 300px;
+                            transition: transform 0.3s;
+                        }
+                    }
+                }
+                .right-right{
+                    width: 370px;
+                    a{
+                        overflow: hidden;
+                        position: relative;
+                        display: block;
+                        width: 370px;
+                        height: 300px;
+                        img{
+                            width: 370px;
+                            height: 300px;
+                            transition: transform 0.3s;
+                        }
+                    }
+                    .text-box{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        width: 370px;
+                        height: 300px;
+                        background-color: rgba(248,248,248,0.6);
+                        p{
+                            font-size: 24px;
+                            font-family: 'Noto Sans KR';
+                            color: #000;
+                            line-height: 1.7;
+                            animation-delay: 0.4s;
+                            -webkit-animation-delay: 0.6s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+#header {
+  width: 100%;
+}
+#header .container {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+#header .container .gap {
+  width: 100%;
+}
+#header .container .gap .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .container .gap .title .title-up {
+  justify-content: space-between;
+  align-items: center;
+  height: 116px;
+  display: flex;
+  width: 100%;
+}
+#header .container .gap .title .title-up .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .container .gap .title .title-up .left ul {
+  display: flex;
+}
+#header .container .gap .title .title-up .left ul li:nth-child(1) img {
+  padding: 0 15px 0 0;
+  width: auto;
+}
+#header .container .gap .title .title-up .left ul li:nth-child(2) img {
+  width: auto;
+}
+#header .container .gap .title .title-up .center {
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 30px;
+  width: 540.156px;
+  height: 116px;
+  display: flex;
+}
+#header .container .gap .title .title-up .center label {
+  width: 100%;
+}
+#header .container .gap .title .title-up .center label input {
+  width: 460px;
+  height: 40px;
+}

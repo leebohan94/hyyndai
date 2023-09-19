@@ -1,0 +1,123 @@
+#section10 {
+  width: 100%;
+}
+#section10 .container {
+  width: 100%;
+}
+#section10 .container .title-box {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 110px;
+  padding-bottom: 50px;
+  margin: 50px 0 0 350px;
+}
+#section10 .container .title-box h2 {
+  font-size: 50px;
+  color: #000;
+  font-weight: 700;
+  font-family: "Noto Serif KR";
+}
+#section10 .container .title-box a {
+  margin-left: auto;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000;
+  text-decoration: underline;
+}
+#section10 .content {
+  width: 100%;
+  height: 806px;
+  background: #f8f8f8;
+}
+#section10 .content .colture {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-left: 350px;
+}
+#section10 .content .colture .left-box p {
+  width: 350px;
+  height: 706px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Noto Sans KR";
+  color: #8e8e8e;
+  padding: 50px 30px 50px 0;
+  display: block;
+}
+#section10 .content .colture .center-box {
+  position: relative;
+  margin: 0px 30px 0px;
+  width: 520px;
+  height: 706px;
+  background-color: #fff;
+}
+#section10 .content .colture .center-box .center-box-img {
+  overflow: hidden;
+  width: 520px;
+  height: 570px;
+}
+#section10 .content .colture .center-box .center-box-img img {
+  width: 100%;
+  vertical-align: top;
+  transition: transform 0.3s;
+}
+#section10 .content .colture .center-box .center-box-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+  height: 136px;
+}
+#section10 .content .colture .center-box .center-box-text .p1 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Noto Sans KR";
+  color: #000;
+  line-height: 1;
+  padding-top: 5px;
+  text-align: center;
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+#section10 .content .colture .center-box .center-box-text .p2 {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Noto Sans KR";
+  color: #000;
+  padding-top: 15px;
+  line-height: 1.2;
+  text-align: center;
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+}
+#section10 .content .colture .right-box {
+  width: 350px;
+  height: 706px;
+}
+#section10 .content .colture .right-box .right-box-top {
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+#section10 .content .colture .right-box .right-box-top a img {
+  transition: transform 0.3s;
+  width: 350px;
+  height: 338px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#section10 .content .colture .right-box .right-box-bottom {
+  position: relative;
+  overflow: hidden;
+}
+#section10 .content .colture .right-box .right-box-bottom a img {
+  transition: transform 0.3s;
+  width: 350px;
+  height: 338px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
