@@ -1,0 +1,107 @@
+#section2 {
+  width: 100%;
+  margin: 150px 0;
+}
+#section2 .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#section2 .container .gap {
+  width: 100%;
+}
+#section2 .container .gap .title {
+  width: 100%;
+  padding-bottom: 50px;
+  line-height: 1.45;
+}
+#section2 .container .gap .title h2 {
+  font-size: 50px;
+  color: #000;
+  font-weight: 700;
+  text-align: left;
+}
+#section2 .container .gap .content {
+  width: 100%;
+  display: flex;
+  background-color: #f8f8f8;
+}
+#section2 .container .gap .content .left-box {
+  width: 50%;
+}
+#section2 .container .gap .content .left-box:hover img {
+  transform: scale(1.02);
+}
+#section2 .container .gap .content .left-box .top-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 150px;
+  padding: 10px 40px 0;
+  line-height: 1.2;
+}
+#section2 .container .gap .content .left-box .top-text span {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+#section2 .container .gap .content .left-box .top-text p {
+  margin-top: 13px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #000;
+}
+#section2 .container .gap .content .left-box .bottom-img {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 480px;
+  height: 520px;
+}
+#section2 .container .gap .content .left-box .bottom-img img {
+  width: auto;
+  transition: all 0.3s;
+}
+#section2 .container .gap .content .right-box {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+#section2 .container .gap .content .right-box:hover .text {
+  transform: translate(0);
+}
+#section2 .container .gap .content .right-box:hover img {
+  transform: scale(1.02);
+}
+#section2 .container .gap .content .right-box .text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 120px;
+  padding: 0 40px;
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: all 0.3s;
+  transform: translateY(100%);
+}
+#section2 .container .gap .content .right-box .text span {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+  line-height: 1.2;
+}
+#section2 .container .gap .content .right-box .text p {
+  margin-top: 8px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000;
+  line-height: 1.2;
+}
+#section2 .container .gap .content .right-box img {
+  width: auto;
+  transition: all 0.3s;
+}
