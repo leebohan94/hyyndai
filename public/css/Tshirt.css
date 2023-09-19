@@ -1,0 +1,303 @@
+#tshirt {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1120px;
+}
+#tshirt .container {
+  width: 100%;
+  margin: 250px 0 0 0;
+}
+#tshirt .container .sub-nav {
+  background: #fff;
+  line-height: 40px;
+  position: relative;
+}
+#tshirt .container .sub-nav .sub-nav-list {
+  margin: 0 auto;
+  width: 1120px;
+  height: 40px;
+}
+#tshirt .container .sub-nav .sub-nav-list li {
+  display: inline-block;
+  font-size: 11px;
+  padding-right: 8px;
+  color: #333;
+  position: relative;
+}
+#tshirt .container .sub-nav .sub-nav-list li a {
+  position: relative;
+  color: #666;
+  font-size: 11px;
+  font-weight: 400;
+  padding: 0 5px;
+}
+#tshirt .container .sub-nav .sub-nav-list li img {
+  width: 5px;
+  height: 3px;
+}
+#tshirt .container .content-wrap {
+  padding-top: 15px;
+}
+#tshirt .container .content-wrap .content {
+  display: block;
+  color: #666;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.425;
+}
+#tshirt .container .content-wrap .content .category-top {
+  color: #666;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.425;
+  position: relative;
+  margin-bottom: 30px;
+  width: 1120px;
+  border-bottom: 1px solid #e3e3e3;
+}
+#tshirt .container .content-wrap .content .category-top h2 {
+  padding-bottom: 15px;
+  font-size: 27px;
+  text-align: center;
+  color: #333;
+}
+#tshirt .container .content-wrap .content .category-top .category-left {
+  position: relative;
+  float: left;
+  width: 230px;
+  height: 400px;
+  border-top: 1px solid #333;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #e3e3e3;
+}
+#tshirt .container .content-wrap .content .category-top .category-left em {
+  display: block;
+  height: 104px;
+  font-size: 23px;
+  color: #333;
+  text-align: center;
+  line-height: 101px;
+  border-bottom: 1px dotted #8d8d8d;
+}
+#tshirt .container .content-wrap .content .category-top .category-left .category-left-list {
+  position: relative;
+  height: 295px;
+  padding: 15px 0 20px;
+}
+#tshirt .container .content-wrap .content .category-top .category-left .category-left-list ul li {
+  list-style: none;
+}
+#tshirt .container .content-wrap .content .category-top .category-left .category-left-list ul li a {
+  display: block;
+  padding: 0 30px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 13px;
+  color: #666;
+}
+#tshirt .container .content-wrap .content .category-top .category-left .category-left-list ul li .sub {
+  z-index: 1;
+  position: absolute;
+  left: 228px;
+  top: 0px;
+  height: 296px;
+  padding: 15px 0 20px;
+  border: 1px solid #e3e3e3;
+  width: 180px;
+  background: #fff;
+}
+#tshirt .container .content-wrap .content .category-top .category-left .category-left-list ul li .sub > ul {
+  margin: 0 auto;
+  display: flex;
+}
+#tshirt .container .content-wrap .content .category-top .category-left .category-left-list ul li .sub > ul > li {
+  text-align: left;
+}
+#tshirt .container .content-wrap .content .category-top .category-left .category-left-list ul li .sub > ul > li > a {
+  display: block;
+  color: #777;
+  font-size: 13px;
+}
+#tshirt .container .content-wrap .content .category-top .category-right {
+  width: 890px;
+  height: 400px;
+  margin-left: 230px;
+  border-bottom: 1px solid #eee;
+}
+#tshirt .container .content-wrap .content .category-top .category-right .slide-img {
+  display: flex;
+}
+#tshirt .container .content-wrap .content .category-top .category-right .slide-img li {
+  list-style: none;
+}
+#tshirt .container .content-wrap .content .category-top .category-right .slide-img li a img {
+  display: block;
+  width: 890px;
+  height: 400px;
+}
+#tshirt .container .content-wrap .content .category-top .category-right .brand-list {
+  z-index: 2;
+  position: absolute;
+  margin-left: 230px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 59px;
+}
+#tshirt .container .content-wrap .content .category-top .category-right .brand-list li {
+  list-style: none;
+}
+#tshirt .container .content-wrap .content .category-top .category-right .brand-list li a {
+  float: left;
+  display: block;
+  width: 178px;
+  height: 59px;
+  line-height: 62px;
+  color: #767676;
+  font-size: 15px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.95);
+  text-decoration: none;
+}
+#tshirt .container .content-wrap .content .category-top .category-right .brand-list li a:hover {
+  text-decoration: underline;
+  color: #fff;
+  background: #39594e;
+}
+#tshirt .container .content-wrap .content .brand-search-wrap {
+  position: relative;
+  margin-bottom: 55px;
+  min-height: 53px;
+  border-top: 2px solid #bababa;
+  border-bottom: 1px solid #bababa;
+}
+#tshirt .container .content-wrap .content .brand-search-wrap h2 {
+  margin: 0;
+  font-weight: 400;
+  color: #242424;
+}
+#tshirt .container .content-wrap .content .brand-search-wrap h2 ::after {
+  content: "";
+  display: inline-block;
+  margin: 0 0 2px 10px;
+  width: 13px;
+  height: 7px;
+  background: url(../lbh/img/sub/sub5/ic_arrow.png) no-repeat -200px -300px;
+  box-sizing: border-box;
+}
+#tshirt .container .content-wrap .content .brand-search-wrap h2 a {
+  display: inline-block;
+  padding: 15px 0 0 30px;
+  font-size: 15px;
+  color: #333;
+}
+#tshirt .container .content-wrap .content .brand-search-wrap .brand-search-form {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 240px;
+}
+#tshirt .container .content-wrap .content .brand-search-wrap .brand-search-form input[type=text] {
+  padding: 0 12px;
+  width: 188px;
+  font-size: 15px;
+  height: 30px;
+  line-height: 29px\9 ;
+  padding: 0 8px;
+  border: 1px solid #ccc;
+  max-width: 100%;
+}
+#tshirt .container .content-wrap .content .brand-search-wrap .brand-search-form a {
+  display: inline-block;
+  margin-left: 2px;
+  padding: 4px 0 0 5px;
+  width: 32px;
+  height: 30px;
+  vertical-align: top;
+  background: #333;
+}
+#tshirt .container .content-wrap .content .special-brand {
+  margin-bottom: 50px;
+}
+#tshirt .container .content-wrap .content .special-brand h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #242424;
+}
+#tshirt .container .content-wrap .content .special-brand .slider-wrap {
+  width: 100%;
+}
+#tshirt .container .content-wrap .content .special-brand .slider-wrap .slider {
+  width: 100%;
+  display: inline-flex;
+}
+#tshirt .container .content-wrap .content .special-brand .slider-wrap .slider li {
+  padding-left: 30px;
+}
+#tshirt .container .content-wrap .content .special-brand .slider-wrap .slider li a img {
+  width: 356px;
+  height: 300px;
+}
+#tshirt .container .content-wrap .content .product-title {
+  position: relative;
+}
+#tshirt .container .content-wrap .content .product-title h3 {
+  padding-bottom: 8px;
+  margin: 50px 0 10px;
+  color: #333;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+#tshirt .container .content-wrap .content .product-wrap {
+  margin-bottom: 50px;
+  display: block;
+}
+#tshirt .container .content-wrap .content .product-wrap .product-inner-wrap {
+  position: relative;
+}
+#tshirt .container .content-wrap .content .product-wrap .product-inner-wrap .left {
+  position: absolute;
+  width: 262px;
+  top: 13px;
+  left: 0;
+}
+#tshirt .container .content-wrap .content .product-wrap .product-inner-wrap .left .nav {
+  margin: 0;
+  border: 0;
+  text-align: center;
+}
+#tshirt .container .content-wrap .content .product-wrap .product-inner-wrap .left .nav li {
+  position: relative;
+  float: none;
+  margin: 0;
+  bottom: 0;
+  height: 56px;
+  border-bottom: 1px solid #e3e3e3 !important;
+  padding: 8px 20px;
+  border: 0;
+}
+#tshirt .container .content-wrap .content .product-wrap .product-inner-wrap .left .nav li:first-child {
+  border-top: 1px solid #e3e3e3 !important;
+  height: 57px;
+  padding: 8px 20px;
+  border-left: 7px solid #39594e !important;
+}
+#tshirt .container .content-wrap .content .product-wrap .product-inner-wrap .left .nav li:hover {
+  padding: 8px 20px;
+  border-left: 7px solid #ddd;
+  background: #eee;
+  background: url(../img/man/bg_green_arrow.png) no-repeat 240px center;
+}
+#tshirt .container .content-wrap .content .product-wrap .product-inner-wrap .left .nav li a {
+  font-size: 16px;
+  line-height: 42px;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+}
