@@ -1,0 +1,526 @@
+#signUp {
+  width: 100%;
+}
+#signUp .container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+#signUp .container .gap {
+  width: 676px;
+  margin: 0 auto;
+}
+#signUp .container .gap .title {
+  width: 100%;
+}
+#signUp .container .gap .title h1 {
+  font-size: 24px;
+  color: #444;
+}
+#signUp .container .gap .title h1 strong {
+  font-weight: 600;
+  color: #333;
+}
+#signUp .container .gap .content {
+  width: 100%;
+}
+#signUp .container .gap .content .chapter1 {
+  width: 100%;
+  margin-top: 50px;
+}
+#signUp .container .gap .content .chapter1 h2 {
+  font-size: 24px;
+  color: #444;
+}
+#signUp .container .gap .content .chapter1 h2 strong {
+  font-weight: 600;
+  color: #333;
+}
+#signUp .container .gap .content .chapter1 .choice-box {
+  width: 100%;
+  display: flex;
+}
+#signUp .container .gap .content .chapter1 .choice-box > li {
+  width: 50%;
+  height: 70px;
+}
+#signUp .container .gap .content .chapter1 .choice-box > li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ddd;
+  border-bottom: 2px solid #333;
+  font-size: 20px;
+  color: #666;
+}
+#signUp .container .gap .content .chapter1 .choice-box > li a.on {
+  border: 2px solid #333;
+  border-bottom: 1px solid #ddd;
+}
+#signUp .container .gap .content .chapter1 .input-box {
+  margin-top: 40px;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box {
+  padding: 0 63px;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .hp-input {
+  position: relative;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .hp-input h4 {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #444;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .hp-input select {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  padding: 0 6px;
+  border: 1px solid #ccc;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .hp-input input {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .hp-input input:focus {
+  outline: none;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .hp-input button {
+  position: absolute;
+  right: 0;
+  width: 120px;
+  height: 40px;
+  margin-left: 40px;
+  border: 0;
+  background: #555;
+  color: #fff;
+  font-size: 13px;
+  transition: all 0.3;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .hp-input button:hover {
+  background: #444;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .hp-auth {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .hp-auth input {
+  width: 200px;
+  height: 40px;
+  padding: 0 6px;
+  border: 1px solid #ccc;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .hp-auth input:focus {
+  outline: none;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .hp-auth span {
+  font-size: 16px;
+  font-size: 600;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .hp-auth button {
+  width: 120px;
+  height: 40px;
+  margin-left: 40px;
+  border: 0;
+  background: #555;
+  color: #fff;
+  font-size: 13px;
+  transition: all 0.3;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .hp-auth button:hover {
+  background: #444;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .text-box {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #bbb;
+}
+#signUp .container .gap .content .chapter1 .input-box .hp-box .text-box p {
+  padding: 8px 0;
+  line-height: 1.4;
+}
+#signUp .container .gap .content .chapter1 .input-box .email-box {
+  margin-top: 30px;
+  padding: 0 60px;
+}
+#signUp .container .gap .content .chapter1 .input-box .email-box p {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #999;
+}
+#signUp .container .gap .content .chapter1 .input-box .email-box input {
+  width: 160px;
+  height: 46px;
+  padding: 0 10px;
+  border: 2px solid #bbb;
+}
+#signUp .container .gap .content .chapter1 .input-box .email-box input:focus {
+  outline: none;
+}
+#signUp .container .gap .content .chapter1 .input-box .email-box span {
+  padding: 0 5px;
+  font-size: 20px;
+  color: #bbb;
+}
+#signUp .container .gap .content .chapter1 .input-box .email-box select {
+  width: 160px;
+  height: 46px;
+  margin-left: 5px;
+  border: 2px solid #bbb;
+}
+#signUp .container .gap .content .chapter1 .input-box .email-box button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 46px;
+  margin-top: 20px;
+  padding: 0 20px;
+  border: 0;
+  background: #666;
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+#signUp .container .gap .content .chapter1 .input-box .email-box button:hover {
+  background: #555;
+}
+#signUp .container .gap .content .chapter2 {
+  width: 100%;
+  margin-top: 50px;
+}
+#signUp .container .gap .content .chapter2 h2 {
+  padding-bottom: 20px;
+  font-size: 24px;
+  color: #444;
+}
+#signUp .container .gap .content .chapter2 h2 strong {
+  font-weight: 600;
+  color: #333;
+}
+#signUp .container .gap .content .chapter2 > p {
+  padding-bottom: 10px;
+  font-size: 13px;
+  color: #666;
+}
+#signUp .container .gap .content .chapter2 .input-box {
+  width: 100%;
+}
+#signUp .container .gap .content .chapter2 .input-box > ul {
+  width: 100%;
+}
+#signUp .container .gap .content .chapter2 .input-box > ul > li {
+  position: relative;
+  width: 100%;
+  padding-right: 100px;
+}
+#signUp .container .gap .content .chapter2 .input-box > ul > li input {
+  width: 100%;
+  height: 46px;
+  padding: 0 50px 0 12px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+#signUp .container .gap .content .chapter2 .input-box > ul > li input:disabled {
+  background: rgba(239, 239, 239, 0.5);
+}
+#signUp .container .gap .content .chapter2 .input-box > ul > li span {
+  position: absolute;
+  display: inline-block;
+  top: 10px;
+  right: 110px;
+  width: 24px;
+  height: 24px;
+  background: url(../../../../../public/PJH/img/icon/ic_check_validation.png) no-repeat;
+}
+#signUp .container .gap .content .chapter2 .input-box > ul > li span.ok {
+  background-position: 0px -50px;
+}
+#signUp .container .gap .content .chapter2 .input-box > ul > li span.error {
+  background-position: 0px -100px;
+}
+#signUp .container .gap .content .chapter2 .input-box > ul > li button {
+  position: absolute;
+  width: 90px;
+  height: 46px;
+  right: 0;
+  background-color: #444;
+  color: #fff;
+}
+#signUp .container .gap .content .chapter2 .input-box > ul > li .error-msg {
+  display: none;
+  padding: 10px;
+  font-size: 13px;
+  color: #de585e;
+}
+#signUp .container .gap .content .chapter2 .input-box > ul > li .error-msg::before {
+  content: "";
+  z-index: 5;
+  display: inline-block;
+  margin-right: 5px;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background: url(../../../../../public/PJH/img/icon/ic_common.png) no-repeat 0 -600px;
+}
+#signUp .container .gap .content .chapter2 .input-box > ul > li .error-msg.on {
+  display: block;
+}
+#signUp .container .gap .content .chapter2 .input-box > ul > li:nth-child(3) {
+  margin-bottom: 15px;
+}
+#signUp .container .gap .content .chapter3 {
+  width: 100%;
+  margin-top: 50px;
+}
+#signUp .container .gap .content .chapter3 h2 {
+  padding-bottom: 20px;
+  font-size: 24px;
+  color: #444;
+}
+#signUp .container .gap .content .chapter3 h2 strong {
+  font-weight: 600;
+  color: #333;
+}
+#signUp .container .gap .content .chapter3 .all-agree-box label {
+  margin-right: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#signUp .container .gap .content .chapter3 .all-agree-box label input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+  background: url(../../../../../public/PJH/img/icon/minimal_cr.png) no-repeat;
+}
+#signUp .container .gap .content .chapter3 .all-agree-box label input[type=checkbox]:checked {
+  background-position: -40px;
+}
+#signUp .container .gap .content .chapter3 .essential-box {
+  width: 100%;
+  margin-top: 40px;
+}
+#signUp .container .gap .content .chapter3 .essential-box h3 {
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+#signUp .container .gap .content .chapter3 .essential-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+}
+#signUp .container .gap .content .chapter3 .essential-box table thead {
+  border: 1px solid #ccc;
+  background: #f6f6f6;
+}
+#signUp .container .gap .content .chapter3 .essential-box table thead tr {
+  height: 42px;
+}
+#signUp .container .gap .content .chapter3 .essential-box table thead tr th {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+#signUp .container .gap .content .chapter3 .essential-box table thead tr th:nth-child(1) {
+  width: 10%;
+}
+#signUp .container .gap .content .chapter3 .essential-box table thead tr th:nth-child(2) {
+  width: 23%;
+}
+#signUp .container .gap .content .chapter3 .essential-box table thead tr th:nth-child(3) {
+  width: 51%;
+}
+#signUp .container .gap .content .chapter3 .essential-box table thead tr th:nth-child(4) {
+  width: 16%;
+}
+#signUp .container .gap .content .chapter3 .essential-box table tbody tr {
+  height: 42px;
+}
+#signUp .container .gap .content .chapter3 .essential-box table tbody tr td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+#signUp .container .gap .content .chapter3 .essential-box .radio-box {
+  margin-top: 15px;
+}
+#signUp .container .gap .content .chapter3 .essential-box .radio-box label {
+  margin-right: 10px;
+  font-size: 12px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+#signUp .container .gap .content .chapter3 .essential-box .radio-box label input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  color: #ccc;
+  outline: 2px solid #ccc;
+  outline-offset: -2px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+#signUp .container .gap .content .chapter3 .essential-box .radio-box label input:checked {
+  border: 4px solid #fff;
+  background: #333;
+  color: #222;
+}
+#signUp .container .gap .content .chapter3 .optional-box {
+  margin-top: 40px;
+}
+#signUp .container .gap .content .chapter3 .optional-box h3 {
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+#signUp .container .gap .content .chapter3 .optional-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+}
+#signUp .container .gap .content .chapter3 .optional-box table thead {
+  border: 1px solid #ccc;
+  background: #f6f6f6;
+}
+#signUp .container .gap .content .chapter3 .optional-box table thead tr {
+  height: 42px;
+}
+#signUp .container .gap .content .chapter3 .optional-box table thead tr th {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+#signUp .container .gap .content .chapter3 .optional-box table thead tr th:nth-child(1) {
+  width: 10%;
+}
+#signUp .container .gap .content .chapter3 .optional-box table thead tr th:nth-child(2) {
+  width: 23%;
+}
+#signUp .container .gap .content .chapter3 .optional-box table thead tr th:nth-child(3) {
+  width: 51%;
+}
+#signUp .container .gap .content .chapter3 .optional-box table thead tr th:nth-child(4) {
+  width: 16%;
+}
+#signUp .container .gap .content .chapter3 .optional-box table tbody tr {
+  height: 63px;
+}
+#signUp .container .gap .content .chapter3 .optional-box table tbody tr td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+#signUp .container .gap .content .chapter3 .optional-box table tbody tr td span {
+  font-size: 15px;
+  font-weight: 600;
+}
+#signUp .container .gap .content .chapter3 .optional-box .radio-box {
+  margin-top: 15px;
+}
+#signUp .container .gap .content .chapter3 .optional-box .radio-box label {
+  margin-right: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#signUp .container .gap .content .chapter3 .optional-box .radio-box label input[type=radio] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  color: #ccc;
+  outline: 2px solid #ccc;
+  outline-offset: -2px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+#signUp .container .gap .content .chapter3 .optional-box .radio-box label input[type=radio]:checked {
+  border: 4px solid #fff;
+  background: #333;
+  color: #222;
+}
+#signUp .container .gap .content .chapter3 .optional-box .radio-box label input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+  background: url(../../../../../public/PJH/img/icon/minimal_cr.png) no-repeat;
+}
+#signUp .container .gap .content .chapter3 .optional-box .radio-box label input[type=checkbox]:checked {
+  background-position: -40px;
+}
+#signUp .container .gap .content .chapter3 .optional-box .radio-box i {
+  padding: 0 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #bbb;
+}
+#signUp .container .gap .content .chapter4 {
+  width: 100%;
+  margin-top: 50px;
+}
+#signUp .container .gap .content .chapter4 h2 {
+  font-size: 24px;
+  color: #444;
+}
+#signUp .container .gap .content .chapter4 h2 strong {
+  font-weight: 600;
+  color: #333;
+}
+#signUp .container .gap .content .button-box {
+  margin-top: 20px;
+  text-align: center;
+}
+#signUp .container .gap .content .button-box p {
+  padding: 15px 0;
+  color: #ec555d;
+  font-size: 15px;
+}
+#signUp .container .gap .content .button-box button {
+  width: 180px;
+  height: 60px;
+  padding: 0 25px;
+  margin: 0 auto;
+  border: 0;
+  background: #222;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.3;
+}
+#signUp .container .gap .content .button-box button:hover {
+  background: #333;
+}

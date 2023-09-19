@@ -1,0 +1,520 @@
+#signUp {
+    width: 100%;
+    .container {
+        width: 100%;
+        max-width: 1120px;
+        margin: 0 auto;
+        .gap {
+            width: 676px;
+            margin: 0 auto;
+            .title {
+                width: 100%;
+                h1 {
+                    font-size: 24px;
+                    color: #444;
+                    strong {
+                        font-weight: 600;
+                        color: #333;
+                    }
+                }
+                .lang-box {
+                    >li {
+                        a {
+
+                        }
+                    }
+                }
+            }
+            .content {
+                width: 100%;
+
+                .chapter1 {
+                    width: 100%;
+                    margin-top: 50px;
+                    h2 {
+                        font-size: 24px;
+                        color: #444;
+                        strong {
+                            font-weight: 600;
+                            color: #333;
+                        }
+                    }
+                    .choice-box {
+                        width: 100%;
+                        display: flex;
+                        >li {
+                            width: 50%;
+                            height: 70px;
+                           
+                            a {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 100%;
+                                height: 100%;
+                                border: 1px solid #ddd;
+                                border-bottom: 2px solid #333;
+                                font-size: 20px;
+                                color: #666;
+                                &.on {
+                                    border: 2px solid #333;
+                                    border-bottom: 1px solid #ddd;
+                                }
+                            }
+                        }
+                    }
+                    .input-box {
+                        margin-top: 40px;
+                        .hp-box {
+                            padding: 0 63px;
+                            .hp-input{
+                                position: relative;
+                                h4 {
+                                    width: 100%;
+                                    margin-bottom: 20px;
+                                    font-size: 24px;
+                                    font-weight: 700;
+                                    color: #444;
+                                }
+                                select {
+                                    display: inline-block;
+                                    width: 120px;
+                                    height: 40px;
+                                    padding: 0 6px;
+                                    border: 1px solid #ccc;
+                                }
+                                input {
+                                    display: inline-block;
+                                    width: 120px;
+                                    height: 40px;
+                                    padding: 0 10px;
+                                    border: 1px solid #ccc;
+                                    &:focus {
+                                        outline: none;
+                                    }
+                                }
+                                button {
+                                    position: absolute;
+                                    right: 0;
+                                    width: 120px;
+                                    height: 40px;
+                                    margin-left: 40px;
+                                    border: 0;
+                                    background: #555;
+                                    color: #fff;
+                                    font-size: 13px;
+                                    transition: all 0.3;
+                                    &:hover {
+                                        background: #444;
+                                    }
+                                }
+                            }
+                            .hp-auth {
+                                margin-top: 40px;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                input {
+                                    width: 200px;
+                                    height: 40px;
+                                    padding: 0 6px;
+                                    border: 1px solid #ccc;
+                                    &:focus {
+                                        outline: none;
+                                    }
+                                }
+                                span {
+                                    font-size: 16px;
+                                    font-size: 600;
+                                }
+                                button {
+                                    width: 120px;
+                                    height: 40px;
+                                    margin-left: 40px;
+                                    border: 0;
+                                    background: #555;
+                                    color: #fff;
+                                    font-size: 13px;
+                                    transition: all 0.3;
+                                    &:hover {
+                                        background: #444;
+                                    }
+                                }
+                            }
+                            .text-box {
+                                margin-top: 40px;
+                                padding-top: 20px;
+                                border-top: 1px solid #bbb;
+                                p {
+                                    padding: 8px 0 ;
+                                    line-height: 1.4;
+                                }
+                            }
+                        }
+                        .email-box {
+                            margin-top: 30px;
+                            padding:  0 60px;
+                            p {
+                                margin-bottom: 15px;
+                                text-align: center;
+                                color: #999;
+                            }
+                            input {
+                                width: 160px;
+                                height: 46px;
+                                padding: 0 10px;
+                                border: 2px solid #bbb;
+                                &:focus {
+                                    outline: none;
+                                }
+                            }
+                            span {
+                                padding: 0 5px;
+                                font-size: 20px;
+                                color:#bbb;
+                            }
+                            select {
+                                width: 160px;
+                                height: 46px;
+                                margin-left: 5px;
+                                border: 2px solid #bbb;
+                            }
+                            button {
+                                position: relative;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                width: 200px;
+                                height: 46px;
+                                margin-top: 20px;
+                                padding: 0 20px;
+                                border: 0;
+                                background: #666;
+                                color: #fff;
+                                font-size: 18px;
+                                transition: all 0.3s;
+                                &:hover {
+                                    background: #555;
+                                }
+
+                            }
+                        }
+                    }
+                }
+                .chapter2 {
+                    width: 100%;
+                    margin-top: 50px;
+                    h2 {
+                        padding-bottom: 20px;
+                        font-size: 24px;
+                        color: #444;
+                        strong {
+                            font-weight: 600;
+                            color: #333;
+                        }
+                    }
+                    >p {
+                        padding-bottom: 10px;
+                        font-size: 13px;
+                        color: #666;
+                    }
+                    .input-box {
+                        width: 100%;
+                        >ul {
+                            width: 100%;
+                            >li {
+                                position: relative;
+                                width: 100%;
+                                padding-right: 100px;
+                                input {
+                                    width: 100%;
+                                    height: 46px;
+                                    padding: 0 50px 0 12px;
+                                    border: 1px solid #ccc;
+                                    background: #fff;
+                                    &:disabled {
+                                        background: rgba(239, 239, 239, 0.5);
+                                    }
+
+                                }
+                                span {
+                                    position: absolute;
+                                    display: inline-block;
+                                    top: 10px;
+                                    right: 110px;
+                                    width: 24px;
+                                    height: 24px;
+                                    background: url(../../../../../public/PJH/img/icon/ic_check_validation.png) no-repeat;
+                                    &.ok {
+                                        background-position: 0px -50px;
+                                    }
+                                    &.error {
+                                        background-position: 0px -100px;
+                                    }
+                                }
+                                button {
+                                    position: absolute;
+                                    width: 90px;
+                                    height: 46px;
+                                    right: 0;
+                                    background-color: #444;
+                                    color: #fff;
+                                }
+                                .error-msg {
+                                    display: none;
+                                    padding: 10px;
+                                    font-size: 13px;
+                                    color: #de585e;
+                                    &::before {
+                                        content: '';
+                                        z-index: 5;
+                                        display: inline-block;
+                                        margin-right: 5px;
+                                        top: 0;
+                                        left: 0;
+                                        width: 14px;
+                                        height: 14px;
+                                        background: url(../../../../../public/PJH/img/icon/ic_common.png) no-repeat 0 -600px;
+                                    }
+                                    &.on {
+                                        display: block;
+                                    }
+                                }
+                                &:nth-child(3) {
+                                    margin-bottom: 15px;
+                                }
+                            }
+
+                        }
+
+                    }
+                }
+                .chapter3 {
+                    width: 100%;
+                    margin-top: 50px;
+                    h2 {
+                        padding-bottom: 20px;
+                        font-size: 24px;
+                        color: #444;
+                        strong {
+                            font-weight: 600;
+                            color: #333;
+                        }
+                    }
+                    .all-agree-box {
+                        label {
+                                margin-right: 10px;
+                                font-size: 12px;
+                                cursor: pointer;
+                                user-select: none;
+                                input[type=checkbox] {
+                                    appearance: none;
+                                    width: 20px;
+                                    height: 20px;
+                                    margin-right: 5px;
+                                    cursor: pointer;
+                                    background: url(../../../../../public/PJH/img/icon/minimal_cr.png) no-repeat;
+                                    &:checked {
+                                        background-position: -40px;
+                                    }
+                                }
+                        }
+                    }
+                    .essential-box {
+                        width: 100%;
+                        
+                        margin-top: 40px;
+                        h3 {
+                            padding-bottom: 20px;
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+                        table {
+                            width: 100%;
+                            border-collapse: collapse;
+                            font-size: 13px;
+                            color: #666;
+                            text-align: center;
+                            thead {
+                                border:1px solid #ccc;
+                                background: #f6f6f6 ;
+                                tr {
+                                    height: 42px;
+                                    th {
+                                        padding: 10px;
+                                        border:1px solid #ccc;
+                                        &:nth-child(1) {width: 10%;}
+                                        &:nth-child(2) {width: 23%;}
+                                        &:nth-child(3) {width: 51%;}
+                                        &:nth-child(4) {width: 16%;}
+                                    }
+
+                                }
+                            }
+                            tbody {
+                                tr {
+                                    height: 42px;
+                                    td {
+                                        padding: 10px;
+                                        border:1px solid #ccc;
+                                    }
+                                }
+                            }
+                        }
+                        .radio-box {
+                            margin-top: 15px;
+                            label {
+                                margin-right: 10px;
+                                font-size: 12px;
+                                user-select: none;
+                                cursor: pointer;
+                                input {
+                                    appearance: none;
+                                    width: 20px;
+                                    height: 20px;
+                                    margin-right: 5px;
+                                    color: #ccc;
+                                    outline: 2px solid #ccc;
+                                    outline-offset: -2px;
+                                    border-radius: 50%;
+                                    background: #fff;
+                                    cursor: pointer;
+                                    &:checked {
+                                        border: 4px solid #fff;
+                                        background: #333;
+                                        color: #222;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .optional-box {
+                        margin-top: 40px;
+                        h3 {
+                            padding-bottom: 20px;
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+                        table {
+                            width: 100%;
+                            border-collapse: collapse;
+                            font-size: 13px;
+                            color: #666;
+                            text-align: center;
+                            thead {
+                                border:1px solid #ccc;
+                                background: #f6f6f6 ;
+                                tr {
+                                    height: 42px;
+                                    th {
+                                        padding: 10px;
+                                        border:1px solid #ccc;
+                                        &:nth-child(1) {width: 10%;}
+                                        &:nth-child(2) {width: 23%;}
+                                        &:nth-child(3) {width: 51%;}
+                                        &:nth-child(4) {width: 16%;}
+                                    }
+
+                                }
+                            }
+                            tbody {
+                                tr {
+                                    height: 63px;
+                                    td {
+                                        padding: 10px;
+                                        border:1px solid #ccc;
+                                        span {
+                                            font-size: 15px;
+                                            font-weight: 600;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .radio-box {
+                            margin-top: 15px;
+                            label {
+                                margin-right: 10px;
+                                font-size: 12px;
+                                cursor: pointer;
+                                user-select: none;
+                                input[type=radio] {
+                                    appearance: none;
+                                    width: 20px;
+                                    height: 20px;
+                                    margin-right: 5px;
+                                    color: #ccc;
+                                    outline: 2px solid #ccc;
+                                    outline-offset: -2px;
+                                    border-radius: 50%;
+                                    background: #fff;
+                                    cursor: pointer;
+                                    &:checked {
+                                        border: 4px solid #fff;
+                                        background: #333;
+                                        color: #222;
+                                    }
+                                }
+                                input[type=checkbox] {
+                                    appearance: none;
+                                    width: 20px;
+                                    height: 20px;
+                                    margin-right: 5px;
+                                    cursor: pointer;
+                                    background: url(../../../../../public/PJH/img/icon/minimal_cr.png) no-repeat;
+                                    &:checked {
+                                        background-position: -40px;
+                                    }
+                                }
+
+                            }
+                            i {
+                                padding: 0 5px;
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: #bbb;
+                            }
+                        }
+                    }
+
+                }
+                .chapter4 {
+                    width: 100%;
+                    margin-top: 50px;
+                    h2 {
+                        font-size: 24px;
+                        color: #444;
+                        strong {
+                            font-weight: 600;
+                            color: #333;
+                        }
+                    }
+                }
+                .button-box {
+                    margin-top: 20px;
+                    text-align: center;
+                    p {
+                        padding: 15px 0;
+                        color: #ec555d;
+                        font-size: 15px;
+                    }
+                    button {
+                        width: 180px;
+                        height: 60px;
+                        padding: 0 25px;
+                        margin: 0 auto;
+                        border: 0;
+                        background: #222;
+                        text-align: center;
+                        font-size: 15px;
+                        font-weight: 600;
+                        color: #fff;
+                        transition: all 0.3;
+                        &:hover {
+                            background: #333;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

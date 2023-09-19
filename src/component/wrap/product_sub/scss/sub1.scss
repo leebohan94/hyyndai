@@ -1,0 +1,1031 @@
+#Sub1Component {
+    width: 100%;
+    .container {
+        width: 100%;
+        max-width: 1120px;
+        margin: 0 auto;
+        .top {
+            width: 100%;
+            .title {
+                // display: flex;
+                border-top: 1px solid #999;
+                .top-title {
+                    text-align: left;
+                    height: 40px;
+                    >ul {
+                        width: 100%;
+                        display: flex;
+                        text-align: center;
+                        align-items: center;
+                        justify-content: left;
+                        >li {
+                            width: 50px;
+                            padding: 20px 0 0 0;
+                            h1 {
+                                font-size: 11px;
+                                font-weight: 400;
+                                line-height: 40px;
+                                color: rgb(102, 102, 102);
+                                cursor: pointer;
+                                &:hover {
+                                    color: #46675c;
+                                    font-weight: 700;
+                                }
+                            }
+                            >img {
+                                width: 3px;
+                                margin: 0 0 0 -50px;
+                            }
+                            h2 {
+                                position: relative;
+                                margin: 0 0 0 -70px;
+                                font-size: 11px;
+                                font-weight: 400;
+                                line-height: 40px;
+                                color: rgb(102, 102, 102);
+                                cursor: pointer;
+                                &:hover {
+                                    color: #46675c;
+                                    font-weight: 700;
+
+                                    .top-title-text-box {
+                                        display: block;
+                                    }
+                                }
+                                .top-title-text-box {
+                                    display: none;
+                                    position: absolute;
+                                    z-index: 1;
+                                    top: 30px;
+                                    left: 35px;
+                                    width: 110px;
+                                    height: 196px;
+                                    border: 1px solid #333;
+                                    background: #fff;
+                                    ul {
+                                        display: block;
+                                        padding: 8px 18px;
+                                        li {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            cursor: pointer;
+                                            &:hover {
+                                                text-decoration: underline;
+                                            }
+                                            h5 {
+                                                font-size: 11px;
+                                                font-weight: 400;
+                                                line-height: 18px;
+                                                color: #666;
+                                                &:hover {
+                                                    color: #46675c;
+                                                }
+                                            }
+                                            img {
+                                                display: flex;
+                                                width: 5px;
+                                                height: 9px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            a {
+                                img {
+                                    margin: 0 0 5px -110px;
+                                    width: 6px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .bottom-title {
+                    padding: 50px 0 15px 0;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                    h2 {
+                        color: #333;
+                        font-size: 27px;
+                        font-weight: 400;
+                        line-height: 38.475px;
+                    }
+                }
+            }
+        }
+        .middle1 {
+            width: 100%;
+            display: flex;
+            margin: 0 0 30px 0;
+            .middle1-left-box {
+                width: 228px;
+                .left-box-top {
+                    width: 100%;
+                    height: 104px;
+                    border-top: 1px solid #333;
+                    border-bottom: 1px dotted #8d8d8d;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                    h1 {
+                        font-size: 23px;
+                        font-weight: 400;
+                        color: #333;
+                    }
+                }
+                .left-box-bottom {
+                    width: 100%;
+                    height: 295px;
+                    border-bottom: 1px solid #eee;
+                    ul {
+                        padding: 15px 0 20px 0;
+                        li {
+                            padding: 0 0 0 30px;
+                            margin: 5px 0 0 0;
+                            h5 {
+                                display: flex;
+                                align-items: center;
+                                position: relative;
+                                font-size: 13px;
+                                font-weight: 400;
+                                height: 25px;
+                                text-align: left;
+                                color: #666;
+                                &:hover {
+                                    color: #fff;
+                                    display: flex;
+                                    background-color: #333;
+                                    text-decoration: underline;
+                                    transition: all 0.1s;
+                                    .left-box-bottom1 {
+                                        display: block;
+                                        // visibility: visible;
+                                    }
+
+                                    .left-box-bottom2 {
+                                        display: block;
+                                        // visibility: visible;
+                                    }
+
+                                    .left-box-bottom3 {
+                                        display: block;
+                                        // visibility: visible;
+                                    }
+
+                                    .left-box-bottom4 {
+                                        display: block;
+                                        // visibility: visible;
+                                    }
+
+                                    .left-box-bottom5 {
+                                        display: block;
+                                        // visibility: visible;
+                                    }
+
+                                    .left-box-bottom6 {
+                                        display: block;
+                                        // visibility: visible;
+                                    }
+
+                                    .left-box-bottom7 {
+                                        display: block;
+                                        // visibility: visible;
+                                    }
+                                    .left-box-bottom8 {
+                                        display: block;
+                                        // visibility: visible;
+                                    }
+                                }
+
+                                .left-box-bottom1 {
+                                    display: none;
+                                    // visibility: hidden;
+                                    position: absolute;
+                                    z-index: 2;
+                                    top: -21px;
+                                    left: 197px;
+                                    width: 179px;
+                                    height: 297px;
+                                    // padding: 15px 0 20px 0;
+                                    border: 1px solid #e3e3e3;
+                                    background: #fff;
+
+                                    >ul {
+                                        display: block;
+
+                                        >li {
+                                            padding: 0 20px;
+                                            height: 19px;
+
+                                            >a {
+                                                font-size: 13px;
+                                                font-weight: 400;
+                                                text-align: left;
+                                                color: #333;
+
+                                                &:hover {
+                                                    text-decoration: underline;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .left-box-bottom2 {
+                                    display: none;
+                                    // visibility: hidden;
+                                    position: absolute;
+                                    z-index: 2;
+                                    top: -51px;
+                                    left: 197px;
+                                    width: 179px;
+                                    height: 297px;
+                                    // padding: 15px 0 20px 0;
+                                    border: 1px solid #e3e3e3;
+                                    background: #fff;
+
+                                    ul {
+                                        display: block;
+
+                                        li {
+                                            padding: 0 20px;
+                                            height: 19px;
+
+                                            a {
+                                                font-size: 13px;
+                                                font-weight: 400;
+                                                text-align: left;
+                                                color: #333;
+
+                                                &:hover {
+                                                    text-decoration: underline;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .left-box-bottom3 {
+                                    display: none;
+                                    // visibility: hidden;
+                                    position: absolute;
+                                    z-index: 2;
+                                    top: -81px;
+                                    left: 197px;
+                                    width: 179px;
+                                    height: 297px;
+                                    // padding: 15px 0 20px 0;
+                                    border: 1px solid #e3e3e3;
+                                    background: #fff;
+
+                                    ul {
+                                        display: block;
+
+                                        li {
+                                            padding: 0 20px;
+                                            height: 19px;
+
+                                            a {
+                                                font-size: 13px;
+                                                font-weight: 400;
+                                                text-align: left;
+                                                color: #333;
+
+                                                &:hover {
+                                                    text-decoration: underline;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .left-box-bottom4 {
+                                    display: none;
+                                    // visibility: hidden;
+                                    position: absolute;
+                                    z-index: 2;
+                                    top: -111px;
+                                    left: 197px;
+                                    width: 179px;
+                                    height: 297px;
+                                    // padding: 15px 0 20px 0;
+                                    border: 1px solid #e3e3e3;
+                                    background: #fff;
+
+                                    ul {
+                                        display: block;
+
+                                        li {
+                                            padding: 0 20px;
+                                            height: 19px;
+
+                                            a {
+                                                font-size: 13px;
+                                                font-weight: 400;
+                                                text-align: left;
+                                                color: #333;
+
+                                                &:hover {
+                                                    text-decoration: underline;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .left-box-bottom5 {
+                                    display: none;
+                                    // visibility: hidden;
+                                    position: absolute;
+                                    z-index: 2;
+                                    top: -141px;
+                                    left: 197px;
+                                    width: 179px;
+                                    height: 297px;
+                                    // padding: 15px 0 20px 0;
+                                    border: 1px solid #e3e3e3;
+                                    background: #fff;
+
+                                    ul {
+                                        display: block;
+
+                                        li {
+                                            padding: 0 20px;
+                                            height: 19px;
+
+                                            a {
+                                                font-size: 13px;
+                                                font-weight: 400;
+                                                text-align: left;
+                                                color: #333;
+
+                                                &:hover {
+                                                    text-decoration: underline;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .left-box-bottom6 {
+                                    display: none;
+                                    // visibility: hidden;
+                                    position: absolute;
+                                    z-index: 2;
+                                    top: -171px;
+                                    left: 197px;
+                                    width: 179px;
+                                    height: 297px;
+                                    // padding: 15px 0 20px 0;
+                                    border: 1px solid #e3e3e3;
+                                    background: #fff;
+
+                                    ul {
+                                        display: block;
+
+                                        li {
+                                            padding: 0 20px;
+                                            height: 19px;
+
+                                            a {
+                                                font-size: 13px;
+                                                font-weight: 400;
+                                                text-align: left;
+                                                color: #333;
+
+                                                &:hover {
+                                                    text-decoration: underline;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .left-box-bottom7 {
+                                    display: none;
+                                    // visibility: hidden;
+                                    overflow: scroll;
+                                    position: absolute;
+                                    z-index: 2;
+                                    top: -201px;
+                                    left: 197px;
+                                    width: 179px;
+                                    height: 297px;
+                                    // padding: 15px 0 20px 0;
+                                    border: 1px solid #e3e3e3;
+                                    background: #fff;
+                                    overflow-y:auto;
+                                    &::-webkit-scrollbar{
+                                        width: 5px;
+                                    }
+                                    &::-webkit-scrollbar-thumb {
+                                        background-color: #ccc;
+                                    }
+                                    &::-webkit-scrollbar-track{
+                                        // background-color: #000;
+                                    }
+                                    ul {
+                                        display: block;
+
+                                        li {
+                                            padding: 0 20px;
+                                            height: 19px;
+
+                                            a {
+                                                font-size: 13px;
+                                                font-weight: 400;
+                                                text-align: left;
+                                                color: #333;
+
+                                                &:hover {
+                                                    text-decoration: underline;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .left-box-bottom8 {
+                                    display: none;
+                                    // visibility: hidden;
+                                    overflow: scroll;
+                                    position: absolute;
+                                    z-index: 2;
+                                    top: -231px;
+                                    left: 197px;
+                                    width: 179px;
+                                    height: 297px;
+                                    // padding: 15px 0 20px 0;
+                                    border: 1px solid #e3e3e3;
+                                    background: #fff;
+                                    overflow-y:auto;
+                                    &::-webkit-scrollbar{
+                                        width: 5px;
+                                    }
+                                    &::-webkit-scrollbar-thumb {
+                                        background-color: #ccc;
+                                    }
+                                    &::-webkit-scrollbar-track{
+                                        // background-color: #000;
+                                    }
+                                    ul {
+                                        display: block;
+                                        li {
+                                            padding: 0 20px;
+                                            height: 19px;
+                                            a {
+                                                font-size: 13px;
+                                                font-weight: 400;
+                                                text-align: left;
+                                                color: #333;
+                                                &:hover {
+                                                    text-decoration: underline;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .middle1-right-box {
+                width: 100%;
+                max-width: 890px;
+                height: 400;
+                .middle-slide-container {
+                    width: 100%;
+                    .middle-slide-view {
+                        width: 100%;
+                        overflow: hidden;
+                        .middle-slide-wrap {
+                            width: 100% * 4;
+                            display: flex;
+                            position: relative;
+                            margin: 0 0 0 -100%;
+                            height: 341px;
+                            .middle-slide {
+                                width: 100%;
+                                height: 100vh;
+                                background-size: cover;
+
+                                a {
+                                    img {}
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .middle-page-btn-box { /////////////////////////////////
+                    display: flex;
+                    width: 100%;
+                    span {
+                        width: 100%;
+                        justify-content: space-between;
+                        height: 59px;
+                        .middle-page-btn {
+                            width: 100%;
+                            height: 59px;
+                            color: #767676;
+                            background: #f8f8f8;
+                            text-align: center;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 15px;
+                            font-weight: 400;
+                            &:hover {
+                                background-color: #fff;
+                            }
+                            &.on {
+                                background-color: #39594e;
+                                color: #fff;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .middle2 {
+            margin: 0 0 55px 0;
+            border-top: 2px solid #9d9d9d;
+            border-bottom: 1px solid #9d9d9d;
+            width: 100%;
+            height: 53px;
+            display: flex;
+            justify-content: space-between;
+
+            .middle2-left {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 15px 0 10px 30px;
+                h1 {
+                    font-size: 17px;
+                    font-weight: 400;
+                    color: #333;
+                    line-height: 24.225px;
+                    &:hover {
+                        text-underline-position: under;
+                        cursor: pointer;
+                        color: #45675b;
+                        text-decoration: underline;
+                    }
+                }
+                a {
+                    margin: 0 0 2px 10px;
+                    img {
+                        
+                    width: 8px;
+                    // height: 7px;
+                        transform: rotate(90deg);
+                    }
+                }
+            }
+            .middle2-right {
+                display: flex;
+                justify-content: center;
+                align-self: center;
+                padding: 15px 30px 10px 0;
+                ul {
+                    display: flex;
+                    li {
+                        label {
+                            color: #e3e3e3;
+                            margin: 0 3px 0 0;
+                            input {
+                                font-size: 15px;
+                                font-weight: 400;
+                                color: #333;
+                                padding: 0 12px;
+                                text-align: left;
+                                width: 178px;
+                                height: 30px;
+                                border-color: 1px solid #e3e3e3;
+                                outline: 1px;
+                                &:focus {
+                                    outline-offset: -1px;
+                                    border: 2px solid #ff4040;
+                                }
+                            }
+                        }
+                        h2 {
+                            // position: relative;
+                            margin: 0 0 0 2px;
+                            padding: 4px 0 0 5px;
+                            width: 32px;
+                            height: 30px;
+                            border: 1px solid #333;
+                            background-color: #333;
+                            a {
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                // position: absolute;
+                                // left: 5px;
+                                // top: 3px;
+                                color: #fff;
+                                background: url(../../../../../public/KHB/img/sub/ic_common.png);
+                                background-position: -100px -500px;
+                                img {
+                                    width: 100%;
+                                    color: #fff;
+                                    width: 25px;
+                                    height: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .middle3 {
+            width: 100%;
+            >span {
+                height: 40px;
+                >h1 {
+                    font-size: 28px;
+                    font-weight: 600;
+                    line-height: 39.9px;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #333;
+                    margin: 0 0 40px 0;
+                }
+            }
+            .middle3-slide-container {
+                position: relative;
+                z-index: 1;
+                width: 100%;
+                .middle3-slide-view {
+                    position: relative;
+                    z-index: 1;
+                    width: 100%;
+                    height: 300px;
+                    overflow: hidden;
+                    .middle3-slide-wrap {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: row wrap;
+                        height: 341px;
+                        .middle3-slide {
+                            a {
+                                padding: 13px;
+                                img {
+                                    width: 346px;
+                                    height: 300px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .middle3-page-btn-box {
+                cursor: pointer;
+                width: 100%;
+                display: flex;
+                margin: 0 5px;
+                ul {
+                    width: 100%;
+                    display: flex;
+                    margin: 0 20px 0 0;
+                    justify-content: right;
+                    .middle3-page-btn {
+                        border: 1px solid #eee;
+                        border-radius: 50%;
+                        width: 12px;
+                        height: 12px;
+                        margin: 10px 3px 0 0;
+                        background: #666666;
+                        &.on {
+                            background-color: #ff4040;
+                            width: 12px;
+                            height: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        .coochen {
+            .title {
+                margin-bottom: 20px;
+                h2 {
+                    text-align: center;
+                    font-size: 28px;
+                    font-weight: 600;
+                    color: #242424;
+                }
+            }
+            .img-box {
+                width: 100%;
+                ul {
+                    display: flex;
+                    flex-flow: wrap;
+                    position: relative;
+                    li {
+                        padding: 10px;
+                        float: left;
+                        a {
+                            width: 100%;
+                            img {
+                            }
+                        }
+                        &:first-child {
+                            width: 100%;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                        }
+                        &:nth-child(5) {
+                            padding-right: 0;
+                            img {
+                                width: 262px;
+                            }
+                        }
+                        &:nth-child(9),
+                        &:nth-child(13) {
+                            padding-right: 0;
+                        }
+                        &:nth-child(10) {
+                            position: relative;
+                        }
+                        &:nth-child(14) {
+                            img {
+                                position: absolute;
+                                top: 74.5%;
+                                right: 50.5%;
+                            }
+                        }
+                        &:nth-child(15) {
+                            img {
+                                position: absolute;
+                                top: 74.5%;
+                                right: 25.3%;
+                            }
+                        }
+                        &:nth-child(16) {
+                            img {
+                                position: absolute;
+                                top: 74.5%;
+                                right: 0.1%;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+        .bottom {
+            width: 100%;
+            >span {
+                >h1 {
+                    margin: 50px 0 10px 0;
+                    border-bottom: 1px solid #e5e5e5;
+                    padding: 0 0 8px 0;
+                    color: #333;
+                    font-size: 28px;
+                    font-weight: 600;
+                    line-height: 40px;
+                    text-align: center;
+                }
+            }
+            .bottom-all {
+                display: flex;
+                .bottom-left-page-btn {
+                    width: 262px;
+                    height: 281px;
+                    ul {
+                        li {
+                            cursor: pointer;
+                            position: relative;
+                            width: 100%;
+                            height: 56px;
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            justify-content: center;
+                            border-bottom: 1px solid #e5e5e5;
+                            padding: 8px 20px;
+                            border-left: 7px solid transparent;
+                            &:hover {
+                                background-color: #eee;
+                                border-left: 7px solid #ccc;
+                            }
+                            &.on {
+                                border-left: 7px solid #39594e !important;
+                                color: #39594e;
+                                background: #fff;
+
+                                img {
+                                    display: block;
+                                }
+                            }
+                            >h1 {
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 20px;
+                                color: #666;
+                            }
+                            img {
+                                display: none;
+                                width: 8px;
+                                height: 10px;
+                                position: absolute;
+                                top: 23px;
+                                right: 0;
+                                z-index: 2;
+                            }
+                            h2 {
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 20px;
+                                color: #666;
+                            }
+                            h3 {
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 20px;
+                                color: #666;
+                            }
+                            h4 {
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 20px;
+                                color: #666;
+                            }
+                            h5 {
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 20px;
+                                color: #666;
+                            }
+                            &:nth-child(1) {
+                                border-top: 1px solid #e5e5e5;
+
+                            }
+                        }
+                    }
+                }
+                .bottom-right-box {
+                    width: 858px;
+                    height: 401px;
+                    .bottom-slide-container {
+                        width: 100%;
+                        position: relative;
+                        z-index: 1;
+                        .bottom-slide-view {
+                            position: relative;
+                            z-index: 1;
+                            width: 100%;
+                            overflow: hidden;
+                            .bottom-slide-wrap {
+                                width: 100%;
+                                display: flex;
+                                position: relative;
+                                z-index: 1;
+                                margin: 0 0 0 -100%;
+                                height: 401px;
+                                .bottom-slide {
+                                    ul {
+                                        display: flex;
+                                        li {    
+                                            width: 256px;
+                                            height: 256px;            
+                                            margin: 0 15px 0 15px;                             
+                                            
+                                            .bottom-slide-img-box {
+                                                &:hover{
+                                                    filter: brightness(0.85); 
+                                                }
+                                                a {
+                                                    img {
+                                                        filter: brightness(0.97);
+                                                        width: 256px;
+                                                        height: 256px;
+                                                    }
+                                                }
+
+                                            }
+                                            .bottom-slide-text-box {
+                                                padding: 10px 0 0 0;
+                                                margin: 0 8px;
+                                                .up-text-box {
+                                                    >h1 {
+                                                        display: flex;
+                                                        align-items: center;
+                                                        font-size: 14px;
+                                                        font-weight: 500;
+                                                        line-height: 25px;
+                                                        text-align: left;
+                                                        color: #333;
+                                                        strong {
+                                                            font-size: 23px;
+                                                        font-weight: 500;
+                                                        line-height: 25px;
+                                                        text-align: left;
+                                                        color: #333;
+                                                        }
+                                                    }
+                                                    >h3 {
+                                                        cursor: pointer;
+                                                        height: 36px;
+                                                        font-size: 13px;
+                                                        font-weight: 400;
+                                                        line-height: 18px;
+                                                        margin: 12px 0 0 0;
+                                                       padding: 0 0 10px 0 ;
+                                                        &:hover{
+                                                            text-decoration: underline;
+                                                            text-underline-offset: unset;
+                                                        }
+                                                    }
+                                                }
+                                                .down-text-box {
+                                                    display: flex;
+                                                    border-top: 1px solid #eee;
+                                                    padding: 15px 0 0 0;
+                                                    margin: 11px 0 0 0;
+                                                    h5 {
+                                                        margin: 1px;
+                                                        padding: 0 3px;
+                                                        font-size: 12px;
+                                                        font-weight: 400;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+                                                        text-align: center;
+                                                        color: #fff;
+                                                        border: 1px solid #46675c;
+                                                        background-color: #46675c;
+                                                        &:nth-child(2){
+                                                        }
+                                                    }
+                                                    h4 {
+                                                        text-align: center;
+                                                        margin: 1px;
+                                                        padding: 0 3px;
+                                                        font-size: 12px;
+                                                        font-weight: 400;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+                                                        color: #fff;
+                                                        border: 1px solid #818181;
+                                                        background-color: #818181;
+                                                    }
+                                                    h3 {
+                                                        text-align: center;
+                                                        margin: 1px;
+                                                        padding: 0 3px;
+                                                        font-size: 12px;
+                                                        font-weight: 400;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+                                                        color: #fff;
+                                                        border: 1px solid #c4ad8f;
+                                                        background-color: #c4ad8f;
+                                                    }
+                                                    h2{
+                                                        text-align: center;
+                                                        margin: 1px;
+                                                        padding: 0 3px;
+                                                        font-size: 12px;
+                                                        font-weight: 400;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+                                                        color: #da3e43;
+                                                        border: 1px solid #da3e43;
+                                                        background-color: #fff;
+                                                    }
+                                                }
+                                            }
+                                            &:nth-child(4),
+                                            &:nth-child(6){
+                                                .up-text-box {
+                                                    margin: 0 0 20px 0;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

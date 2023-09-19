@@ -1,0 +1,68 @@
+#mypage {
+    width: 100%;
+    >.container {
+        width: 100%;
+        max-width: 1360px;
+        margin: 0 auto;
+        padding: 0 40px;
+        
+        >.gap {
+            .title {
+                .mypage-header {
+                    >li {
+                        a {}
+                    }
+                }
+            }
+            >.content {
+                display: flex;
+                .leftarea {
+                    width: 230px;
+                    border-right: 1px solid #ddd;
+                    .title-box {
+                        padding: 50px 0;
+                        h2 {
+                            font-size: 35px;
+                            color: #222;
+                        }
+                        h3 {
+                            font-size: 20px;
+                            color: #ddd;
+                        }
+                        hr {
+                            margin-top: 30px;
+                            width: 50px;
+                        }
+                    }
+                    .left-menu-box {
+                        padding-top: 30px;
+                        .parent-menu-box {
+                            >li {
+                                padding-bottom: 10px;
+                                h4 {
+                                    padding-bottom: 10px;
+                                    font-size: 15px;
+                                    color: #333;
+                                }
+                                .children-menu-box {
+                                    >li {
+                                        padding: 3px 0;
+                                        a {
+                                            padding-left: 12px;
+                                            font-size: 13px;
+                                            color: #767676;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .rightarea {
+                    flex-grow: 1;
+                    padding: 0 0 100px 100px;
+                }
+            }
+        }
+    }
+}

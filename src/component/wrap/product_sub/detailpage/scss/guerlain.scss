@@ -1,0 +1,1352 @@
+#Guerlain {
+    width: 100%;
+    .container {
+        width: 100%;
+        max-width: 1120px;
+        margin: 0 auto;
+        .title {
+            // display: flex;
+            border-top: 1px solid #999;
+            .top-title {
+                text-align: left;
+                height: 40px;
+                display: flex;
+                >ul {
+                    width: 100%;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    // justify-content: center;
+                    >li {
+                        width: 50px;
+                        padding: 20px 0 0 0;
+                        // display: flex;
+                        h1 {
+                            font-size: 11px;
+                            font-weight: 400;
+                            line-height: 40px;
+                            color: rgb(102, 102, 102);
+                            cursor: pointer;
+                            &:hover {
+                                color: #46675c;
+                                font-weight: 700;
+                            }
+                        }
+                        .home {
+                            width: 3px;
+                            margin: 0 0 0 -50px;
+                        }
+                        >img {
+                            width: 4px;
+                            height: 7px;
+                            margin: 0 0 0 -170px;
+                            color: #333;
+                        }
+                        .hover-menu {
+                            position: relative;
+                            margin: 0 0 0 -80px;
+                            font-size: 11px;
+                            font-weight: 400;
+                            line-height: 40px;
+                            color: #666;
+                            cursor: pointer;
+                            &:hover {
+                                color: #46675c;
+                                font-weight: 700;
+                                .top-title-text-box {
+                                    display: block;
+                                }
+                            }
+                            .top-title-text-box {
+                                display: none;
+                                position: absolute;
+                                z-index: 1;
+                                top: 30px;
+                                left: 35px;
+                                width: 110px;
+                                height: 196px;
+                                border: 1px solid #333;
+                                background: #fff;
+                                >ul {
+                                    display: block;
+                                    padding: 8px 18px;
+                                    >li {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        cursor: pointer;
+                                        &:hover {
+                                            text-decoration: underline;
+                                        }
+                                        h5 {
+                                            font-size: 11px;
+                                            font-weight: 400;
+                                            line-height: 18px;
+                                            color: #666;
+                                            &:hover {
+                                                color: #46675c;
+                                            }
+                                        }
+                                        img {
+                                            display: flex;
+                                            width: 5px;
+                                            height: 9px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        h2 {
+                            position: relative;
+                            margin: 0 0 0 -160px;
+                            font-size: 11px;
+                            font-weight: 400;
+                            line-height: 40px;
+                            color: #666;
+                            cursor: pointer;
+                            &:hover {
+                                color: #46675c;
+                                font-weight: 700;
+                                .top-title-text-box {
+                                    display: block;
+                                }
+                            }
+                        }
+                        a {
+                            img {
+                                margin: 0 0 1px -110px;
+                                width: 6px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .content { //상품정보시작
+            width: 100%;
+            padding: 15px 0 0 0;
+            line-height: 1.425;
+            .first-info { //상품이미지가격정보
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                .left {
+                    width: 100%;
+                    padding: 0 10px;
+                    margin-right: 20px;
+                    .info-img-box {
+                        width: 530px;
+                        height: 530px;
+                        position: relative;
+                        img {
+                            width: 100%;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            opacity: 0;
+                            transition: all .6s;
+                            &.on {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                    .sub-img {
+                        width: 539px;
+                        margin: 10px -10px 0 -4px;
+                        flex-direction: column;
+                        align-items: center;
+                        height: 156px;
+                        a {
+                            >img {
+                                margin: 4px 3px 4px 4px;
+                                border: 1px solid #dbdbdb;
+                                width: 70px;
+                                height: 70px;
+                                object-fit: contain;
+                            }
+                        }
+                    }
+                    .satisfy {
+                        max-width: 100%;
+                        margin-top: 12px;
+                        font-size: 15px;
+                        color: #333;
+                        span {
+                            font-size: 25px;
+                            font-weight: 400;
+                            color: #333;
+                            vertical-align: baseline;
+                            &:nth-of-type(1){
+                                color: #e35c61;
+                            }
+                        }
+                        i {
+                            margin: 0 8px 4px 10px;
+                            width: 9px;
+                            height: 17px;
+                        }
+                    }
+                    .product-code {
+                        width: 100%;
+                        padding: 10px 0;
+                        margin-top: 10px;
+                        border: 1px solid #ebebeb;
+                        border-width: 1px 0;
+                        display: flex;
+                        justify-content: space-between;
+                        .code {
+                            display: flex;
+                            p {
+                                color: #666;
+                                line-height: 30px;
+                                strong {
+                                    font-weight: 600;
+                                    vertical-align: baseline;
+                                }
+                            }
+                            a {
+                                width: 45px;
+                                height: 22px;
+                                margin-top: 4px;
+                                margin-left: 10px;
+                                text-align: center;
+                                font-size: 12px;
+                                line-height: 22px;
+                                border: 1px solid #dcdcdc;
+                                display: inline-block;
+                            }
+                        }
+                        .button {
+                            display: flex;
+                            width: 119.711px;
+                            .btnL {
+                                width: 45%;
+                                display: flex;
+                                height: 28px;
+                                border: 1px solid #ccc;
+                                background: #fafafa;
+                                transition: all .15s ease-out;
+                                &:hover {
+                                    background: #f6f6f6;
+                                }
+                                a {
+                                    justify-content: center;
+                                    align-items: center;
+                                    text-align: center;
+                                    width: 100%;
+                                    display: flex;
+                                    img {
+                                        width: 15px;
+                                        height: 13px;
+                                    }
+                                    p {
+                                        line-height: 30px;
+                                        font-size: 13px;
+                                        margin-left: 5px;
+                                    }
+                                }
+                            }
+                            .btnR {
+                                width: 50%;
+                                display: flex;
+                                height: 28px;
+                                border: 1px solid #ccc;
+                                margin-left: 3px;
+                                background: #fafafa;
+                                transition: all .15s ease-out;
+                                &:hover {
+                                    background: #f6f6f6;
+                                }
+                                a {
+                                    justify-content: center;
+                                    align-items: center;
+                                    text-align: center;
+                                    width: 100%;
+                                    display: flex;
+                                    img {
+                                        width: 15px;
+                                        height: 15px;
+                                    }
+                                    p {
+                                        line-height: 30px;
+                                        font-size: 13px;
+                                        margin-left: 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .right {
+                    width: 100%;
+                    padding: 0 10px;
+                    .logo {
+                        display: flex;
+                        justify-content: space-between;
+                        border-bottom: 1px solid #dbdbdb;
+                        padding-bottom: 15px;
+                        a {
+                            display: flex;
+                            img {
+                                width: 139px;
+                            }
+                            i {
+                                width: 7px;
+                                height: 11px;
+                                margin: 15px 0 1px 10px;
+                                background: url(../../../../../../public/KHB/img/detailSub/ic_arrow.png) no-repeat -300px 0;
+                            }
+                        }
+                        p {
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 30px;
+                            color: #666;
+                        }
+                    }
+                    .product-name {
+                        padding: 20px 0;
+                        h3 {
+                            font-size: 23px;
+                            line-height: 31px;
+                            color: #000;
+                            font-weight: 400;
+                        }
+                        h1 {
+                            display: flex;
+                            font-size: 39px;
+                            font-weight: 500;
+                            letter-spacing: -1px;
+                            color: #e35c61;
+                            position: relative;
+                            p {
+                                position: absolute;
+                                left: 21.5%;
+                                bottom: 10%;
+                                font-size: 23px;
+                            }
+                        }
+                    }
+                    ul {
+                        z-index: 2;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        position: relative;
+                        li {
+                            padding: 10px 0;
+                            display: flex;
+                            p {
+                                display: flex;
+                                width: 24%;
+                                a {
+                                    width: 16px;
+                                    i {
+                                        display: flex;
+                                        width: 100%;
+                                        height: 100%;
+                                        background: url(../../../../../../public/KHB/img/detailSub/ic_common.png) no-repeat 0 -800px;
+                                        margin: 5px 0 0 5px;
+                                    }
+                                }
+                            }
+                            em {}
+                            .muija-icon-content { // 무이자 아이콘버튼
+                                &.on{
+                                    display: block;
+                                }
+                                display: none;
+                                background: #fff;
+                                position: absolute;
+                                z-index: 3;
+                                width: 400px;
+                                top: 85px;
+                                left: -140.391px;
+                                border: 1px solid #222;
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    top: -10px;
+                                    left: 49%;
+                                    transform: translateX(-50%);
+                                    border-style: solid;
+                                    border-width: 0 8px 10px 8px;
+                                    border-color: #222 transparent;
+                                }
+                            }
+                                .info {
+                                    width: 374px;
+                                    padding: 13px 0 13px 20px;
+                                    .row1 {
+                                        margin-bottom: 10px;
+                                        h5 {
+                                            font-weight: 600;
+                                            font-size: 15px;
+                                            color: #555;
+                                        }
+                                        img {
+                                            position: absolute;
+                                            width: 10px;
+                                            height: 10px;
+                                            right: 10px;
+                                            top: 10px;
+                                            filter: invert(100%);
+                                            cursor: pointer;
+                                        }
+                                    }
+                                    .row2 {
+                                        margin-top: 5px;
+                                        border-top: 1px solid #767676;
+                                        border-bottom: 1px solid #767676;
+                                        width: 351px;
+                                        height: 186px;
+                                        overflow: auto;
+                                        table {
+                                            width: 334px;
+                                            text-align: center;
+                                            font-size: 13px;
+                                            border-spacing: 0;
+                                            thead {
+                                                width: 100%;
+                                                tr {
+                                                    width: 100%;
+                                                    line-height: 22px;
+                                                    color: #444;
+                                                    text-align: center;
+                                                    vertical-align: middle;
+                                                    background: #f6f6f6;
+                                                    padding: 5px 5px 3px 5px;
+                                                    th {
+                                                    }
+                                                }
+                                            }
+                                            tbody {
+                                                width: 100%;
+                                                tr {
+                                                    width: 100%;
+                                                    // background: #000;
+                                                    td {
+                                                        border-top: 1px solid #e0e0e0;
+                                                        padding: 5px 5px 3px 5px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .row3 {
+                                        ul {
+                                            margin-top: 20px;
+                                            li {
+                                                padding: 0;
+                                                position: relative;
+                                                padding-left: 10px;
+                                                margin-bottom: 4px;
+                                                font-size: 12px;
+                                                color: #666;
+                                                line-height: 1.6;
+                                            }
+                                        }
+                                    }
+                                
+                            }
+                            .saved-money { // 적립금아이콘버튼
+                                &.on{
+                                    display: block;
+                                }
+                                display: none;
+                                background: #fff;
+                                position: absolute;
+                                top: 65%;
+                                left: -23.5%;
+                                z-index: 2;
+                                border: 1px solid #222;
+                                padding: 17px 25px 10px 10px;
+                                font-size: 13px;
+                                font-weight: 400;
+                                line-height: 18.525px;
+                                color: #888;
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    top: -10px;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                    border-style: solid;
+                                    border-width: 0 8px 10px 8px;
+                                    border-color: #222 transparent;
+                                }
+                                .txt {
+                                }
+                                a {
+                                    >img {
+                                        position: absolute;
+                                        width: 10px;
+                                        height: 10px;
+                                        right: 9px;
+                                        top: 6px;
+                                        filter: invert(100%);
+                                        cursor: pointer;
+                                    }
+                                }
+                                >a {
+                                    button {
+                                        background: #555;
+                                        border: 1px solid #555;
+                                        padding: 0 10px;
+                                        height: 26px;
+                                        line-height: 26px;
+                                        font-size: 12px;
+                                        color: #fff;
+                                        margin-top: 5px;
+                                        img {
+                                            margin: 0 0 1px 10px;
+                                        }
+                                    }
+                                }
+                                em {
+                                    display: block;
+                                    margin-top: 15px;
+                                    
+                                }
+                            }
+                            
+                        }
+                    }
+                    .select-box { //옵션박스
+                        width: 530px;
+                        padding: 15px 20px;
+                        background: #f6f6f6;
+                        .select-click {
+                            position: relative;
+                            select {
+                                width: 100%;
+                                padding: 9px 20px;
+                                background: #fafafa;
+                                height: 38px;
+                                line-height: 20px;
+                                border: 1px solid #ddd;
+                                option {
+                                    background: #f6f6f6;
+                                }
+                                p {
+                                    position: absolute;
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    height: 20px;
+                                    line-height: 20px;
+                                    color: #666;
+                                    background: url(../../../../../../public/KHB/img/detailSub/icon_opt_selc_arrow.png) no-repeat right center;
+                                }
+                            }
+                        }
+                    }
+                    .select-option { //선택한옵션리스트
+                        margin-top: 30px;
+                        ul {
+                            color: #666;
+                            li {
+                                border: 1px solid #dcdcdc;
+                                .sel-opt {
+                                    position: relative;
+                                    padding: 8px 19px;
+                                    .name {
+                                        float: left;
+                                        width: 270px;
+                                        padding: 2px 10px 0 0;
+                                    }
+                                    .cnt-box{ //cnt증가/감소박스
+                                        display: flex;
+                                        float: left;
+                                        line-height: 0;
+                                        width: 78px;
+                                        a{
+                                            width: 23px;
+                                            height: 24px;
+                                            text-align: center;
+                                            font-size: 0;
+                                            line-height: 0;
+                                            border: 1px solid #e6e6e6;
+                                            
+                                            &.cnt-down{
+                                                background: #fff url(../../../../../../public/KHB/img/detailSub/ic_opt_ctrl.png)no-repeat;
+                                                border-right: 0;
+                                                background-position: -13px center;
+                                            }
+                                            &.cnt-up{
+                                                background: #fff url(../../../../../../public/KHB/img/detailSub/ic_opt_ctrl.png)no-repeat;
+                                                border-left: 0;
+                                                background-position: -33px center;
+                                                float: left;
+                                            }
+                                        }
+                                        input {
+                                            float: left;
+                                            width: 32px;
+                                            height: 24px;
+                                            line-height: 21px;
+                                            text-align: center;
+                                            border: 1px solid #e6e6e6;
+                                            padding: 0 3px;
+                                        }
+                                    }
+                                    .price {
+                                        float: left;
+                                        width: 125px;
+                                        padding: 2px 20px 0 10px;
+                                        text-align: right;
+                                        font-size: 15px;
+                                        color: #333;
+                                        font-weight: 700;
+                                        span {}
+                                    }
+                                    a {
+                                        float: right;
+                                        width: 15px;
+                                        // margin-top: 4px;
+                                        color: #666;
+                                        text-underline-position: under;
+                                        .exitimg {
+                                            display: inline-block;
+                                            width: 15px;
+                                            height: 15px;
+                                            background: url(../../../../../../public/KHB/img/detailSub/ic_common.png)no-repeat;
+                                            background-position: 0 -400px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-box {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 60px;
+                        button {
+                            border: 0;
+                            font-size: 17px;
+                            height: 56px;
+                            font-weight: 600;
+                            color: #fff;
+                            &:first-child {
+                                width: 25%;
+                                background: #999;
+                            }
+                            &:nth-child(2) {
+                                width: 25%;
+                                margin-left: 6px;
+                                background-color: #45675b;
+                                // background: url(../../../../../../public/KHB/img/detailSub/btn_icon_gift_sprite.png) no-repeat;
+                                img {
+                                    margin: -6px 8px 0 0;
+                                }
+                            }
+                            &:nth-child(3) {
+                                width: 50%;
+                                margin-left: 6px;
+                                background: #e35c61;
+                            }
+                        }
+                    }
+                }
+            }
+            .banner { //배너이미지
+                margin-top: 10px;
+                img {}
+            }
+            .other-customer { //다른 고객님들은 이 상품을 보고 있어요
+                display: flex;
+                // justify-content: space-evenly;
+                padding: 30px 10px;
+                margin-top: 12px;
+                .left {
+                    width: 522px;
+                    overflow: hidden;
+                    float: left;
+                    hr {
+                        width: 45px;
+                        height: 0;
+                        display: block;
+                        border-top: 2px solid #333;
+                        padding-top: 20px;
+                    }
+                    .title {
+                        h4 {
+                            margin-bottom: 20px;
+                            font-size: 19px;
+                            font-weight: 400;
+                            color: #494949;
+                            letter-spacing: -.5px;
+                        }
+                    }
+                    .left-slide {
+                        display: flex;
+                        a {
+                            padding: 0 3px;
+                            img {
+                                width: 170px;
+                            }
+                            p {
+                                margin-top: 10px;
+                                color: #333;
+                                font-size: 13px;
+                                &:last-child {
+                                    color: #666;
+                                    margin-top: 6px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .right {
+                    overflow: hidden;
+                    float: right;
+                    width: 522px;
+                    margin-left: 60px;
+                    hr {
+                        width: 45px;
+                        height: 0;
+                        display: block;
+                        border-top: 2px solid #333;
+                        padding-top: 20px;
+                    }
+                    .title {
+                        h4 {
+                            margin-bottom: 20px;
+                            font-size: 19px;
+                            font-weight: 400;
+                            color: #494949;
+                            letter-spacing: -.5px;
+                        }
+                    }
+                    .right-slide {
+                        display: flex;
+                        a {
+                            padding: 0 3px;
+                            img {
+                                width: 170px;
+                            }
+                            p {
+                                margin-top: 10px;
+                                color: #333;
+                                font-size: 13px;
+                                &:last-child {
+                                    color: #666;
+                                    margin-top: 6px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .tab { //상품상세/상품평/q&a/교환 탭 버튼
+                width: 100%;
+                position: sticky;
+                top: 0;
+                height: auto;
+                margin-top: 45px;
+                padding-top: 5px;
+                background-color: #fff;
+                border-bottom: 2px solid #000;
+                z-index: 3;
+                ul {
+                    background-color: #fff;
+                    width: 72%;
+                    display: flex;
+                    li {
+                        width: 100%;
+                        border-top: 1px solid #ccc;
+                        border-left: 1px solid #ccc;
+                        overflow: hidden;
+                        z-index: 3;
+                        border-bottom: 2px solid transparent;
+                        margin-bottom: -2px;
+                        &.on {
+                            border-bottom-color: #fff;
+                            border-top: 2px solid #333;
+                            border-left: 2px solid #333;
+                            border-right: 2px solid #333;
+                            a{
+                                font-weight: 600;
+                                color: #333;
+                            }
+
+                        }
+                        &:last-child {
+                            border-right: 1px solid #ccc;
+                        }
+                        a {
+                            display: block;
+                            padding: 15px 20px 12px 20px;
+                            font-size: 15px;
+                            color: #767676;
+                            text-align: center;
+                            &:hover {
+                                color: #666;
+                            }
+                            var {
+                                margin-left: 5px;
+                                vertical-align: baseline;
+                            }
+                        }
+                    }
+
+                }
+            }
+            .tab-content {
+                width: 100%;
+                padding: 0 12px;
+                .product-detail { //상품상세구간
+                    width: 100%;
+                    padding: 50px 0 20px 0;
+                    margin-bottom: 50px;
+                    border-bottom: 1px solid #ebebeb;
+                    .conduite { //구매안내/배송안내
+                        width: 100%;
+                        // max-width: 1096px;
+                        height: 140px;
+                        display: flex;
+                        padding: 0 0 10px 0;
+                        justify-content: space-between;
+                        .left {
+                            display: flex;
+                            padding-right: 15px;
+                            img {}
+                            .txt {
+                                width: 100%;
+                                padding: 0 0 0 19px;
+                                h2 {
+                                    font-size: 28px;
+                                    color: #222;
+                                }
+                                ul {
+                                    padding: 7px 0 0 0;
+                                    li {
+                                        font-size: 15px;
+                                        color: #303030;
+                                        line-height: 1.4em;
+                                    }
+                                }
+                            }
+                        }
+                        .right {
+                            display: flex;
+                            padding-left: 15px;
+                            border-left: 1px solid #f2f2f2;                           
+                            img {}
+                            .txt {
+                                padding: 0 0 0 19px;
+                                h2 {
+                                    font-size: 28px;
+                                    color: #222;
+                                }
+                                ul {
+                                    padding: 7px 0 0 0;
+                                    li {
+                                        font-size: 15px;
+                                        color: #303030;
+                                        line-height: 1.4em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .bottom-box {
+                        margin-top: 20px;
+                        border-top: 1px solid #ebebeb;
+                        padding: 20px 0 0 20px;
+                        .phone-number {
+                            display: flex;
+                            p {
+                                font-size: 13px;
+                                font-weight: 700;
+                                padding-right: 60px;
+                            }
+                            em {
+                                font-size: 13px;
+                                font-weight: 400;
+                                color: #9a9a9a;
+                            }
+                        }
+                    }
+                }
+            }
+            .scroll-wrap { // 스크롤페이지
+                // overflow: auto;
+                width: 100%;
+                height: auto;
+                .product-detail-img-box { // 상품상세
+                    display: flex;
+                    height: auto;
+                    justify-content: space-between;
+                    padding: 0 12px;
+                    .left-box {
+                        width: 780px;
+                        p {
+                            margin: 25px 0 50px 0;
+                            font-size: 16px;
+                            font-weight: 700;
+                            text-align: center;
+                        }
+                        img {
+                            width: 100%;
+                        }
+                        span {
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.8px;
+                        }
+                        .img-box {
+                            // width: 800px;
+                            // height: 2000px;
+                            margin: 0;
+                            flex-direction: column;
+                            padding: 50px 0;
+                            img {
+                                margin: 0;
+                                padding: 20px 0 0 20px;
+                                width: 380px;
+                                // object-fit: contain;
+                            }
+                        }
+                        .table-box {
+                            margin-top: 40px;
+                            table {
+                                border-spacing: 0;
+                                border-top: 1px solid #767676;
+                                border-bottom: 1px solid #767676;
+                                tbody  {
+                                    tr {
+                                        th {
+                                            padding: 18px 15px 16px 15px;
+                                            width: 120px;
+                                            text-align: left;
+                                            color: #444;
+                                            font-size: 13px;
+                                            font-weight: 600;
+                                            border-top: 1px solid #eee;
+                                            background: #f6f6f6;
+                                        }
+                                        td {
+                                            padding: 12px;
+                                            text-align: left;
+                                            color: #666;
+                                            border-top: 1px solid #e0e0e0;
+                                            font-size: 13px;
+                                            font-weight: 400;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .right-box { //오른쪽스크롤
+                        width: 100%;
+                        max-width: 290px;
+                        height: auto;
+                        padding-left: 20px;
+                        // overflow: auto;
+                        .scroll-content {
+                            position: sticky;
+                            top: 60px;
+                            max-height: 758px;
+                            background: #fafafa;
+                            width: 100%;
+                            height: auto;
+                            padding: 20px 0 0 20px;
+                            .background {
+                                position: relative;
+                                margin: 0 20px 0 0;
+                                .select-box {
+                                    padding: 9px 15px;
+                                    border: 1px solid #dcdcdc;
+                                    cursor: pointer;
+                                }
+                                .select-sub {
+                                    position: absolute;
+                                    background: #fff;
+                                    width: 100%;
+                                    height: 254px;
+                                    left: 0;
+                                    top: 37px;
+                                    border: 1px solid #aaa;
+                                    li {
+                                        border-top: 1px solid #efefef;
+                                        font-size: 13px;
+                                        a {
+                                            display: block;
+                                            padding: 0 10px;
+                                            line-height: 30px;
+                                            &:hover {
+                                                background: #fbe6ef;
+                                            }
+                                        }
+                                    }
+                                }
+                                .cart-box {
+                                    padding: 8px 15px;
+                                    margin: 30px 0 0 0;
+                                    border: 1px solid #dcdcdc;
+                                    p {
+                                    }
+                                    .cnt {
+                                        text-align: left;
+                                        // float: left;
+                                    }
+                                    .price {
+                                        text-align: right;
+                                        // float: right;
+                                    }
+                                }
+                                .sumprice {
+                                    padding: 10px 20px;
+                                    font-size: 19px;
+                                    font-weight: 600;
+                                    color: #ec555d;
+                                    text-align: right;
+                                    letter-spacing: -1px;
+                                    strong {
+                                        margin: 0 2px 0 7px;
+                                        vertical-align: baseline;
+                                        font-size: 28px;
+                                    }
+                                }
+                                .btn-box {
+                                    background: #fafafa;
+                                    color: #999;
+                                    padding-top: 400px;
+                                    ul {
+                                        a {
+                                            width: 100%;
+                                            li {
+                                                width: 211px;
+                                                height: 56px;
+                                                line-height: 58px;
+                                                font-size: 17px;
+                                                font-weight: 600;
+                                                color: #fff;
+                                                text-align: center;
+                                                margin-top: 6px;
+                                                &.cart-btn {
+                                                    background: #999;
+                                                    border: 1px solid #ccc;
+                                                    margin: 0;
+                                                }
+                                                &.present-btn {
+                                                    background: #45675b;
+                                                    border: 1px solid #45675b;
+                                                    img {
+                                                        margin: -6px 6px 0 0;
+                                                    }
+                                                }
+                                                &.buy-btn {
+                                                    background: #e35c61;
+                                                    border: 1px solid #e35c61;
+                                                }
+                                            }
+    
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .product-review { // 상품명
+                    width: 100%;
+                    margin-top: 60px;
+                    .review-container {
+                        padding: 30px 10px 0 10px;
+                        border-top: 1px solid #000;
+                        .review-title {
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 20px 0;
+                            .title-left {
+                                .star {
+                                    display: flex;
+                                    img {
+                                        width: 190px;
+                                    }
+                                    // font-size: 50px;
+                                    i {
+
+                                        margin-left: 20px;
+                                        font-size: 33px;
+                                        color: #231f20;
+                                        font-weight: 700;
+                                    }
+                                }
+                                p {
+                                    padding-top: 10px;
+                                    font-size: 14px;
+                                    color: #666;
+                                }
+
+                            }
+                            .title-right {
+                                margin-right: 20px;
+                                a {
+                                    border: 1px solid #000;
+                                    height: 34px;
+                                    padding: 15px 30px 15px 30px;
+                                    span {
+                                        padding: 5px 0 15px 40px;
+                                        width: 34px;
+                                        background: url(../../../../../../public/KHB/img/detailSub/icon_r.png) no-repeat 0 0px;
+                                        background-size: 34px;
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        color: #231f20;
+                                    }
+                                    img {
+                                        width: 8px;
+                                        height: 11px;
+                                        margin: 4px 0 0 5px;
+                                    }
+                                }
+                            }
+                        }
+                        .img-box {
+                            padding: 40px 0 25px 0;
+                            width: 1100px;
+                            ul {
+                                display: flex;
+                                li {
+                                    img {
+                                        height: 130px;
+                                        width: 130px;
+                                        margin-right: 10px;
+                                        // &::after {
+                                        //     content: '';
+                                        //     position: absolute;
+                                        //     top: 0;
+                                        //     right: 0;
+                                        //     bottom: 0;
+                                        //     left: 0;
+                                        //     background-color: #000;
+                                        // }
+                                    }
+                                    div {
+                                        background-color: rgba(0, 0, 0, 0.03);
+                                        height: 130px;
+                                        width: 130px;
+                                        margin-right: 10px;
+                                        display: flex;
+                                        text-align: center;
+                                        align-items: center;
+                                        justify-content: center;
+                                    }
+                                }
+                            }
+                        }
+                        .total-title {
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 25px 0 20px 0;
+                            border-bottom: 1px solid #000;
+                            .left-title {
+                                display: flex;
+                                p {
+                                    font-size: 16px;
+                                    color: #231f20;
+                                    &:last-child {
+                                        font-weight: 700;
+                                        margin-left: 25px;
+                                    }
+                                }
+                            }
+                            .right-title {
+                                img {
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                        .review-list-box {
+                            ul {
+                                li {
+                                    padding: 40px 0;
+                                    .top {
+                                        display: flex;
+                                        img {
+                                        }
+                                        p {
+                                            color: #e2767a;
+                                            font-weight: 700;
+                                            font-size: 14px;
+                                            margin: 4px 0 0 10px;
+                                        }
+                                    }
+                                    .middle {
+                                        padding: 10px 0;
+                                        display: flex;
+                                        justify-content: space-between;
+                                        .col1 {
+                                            width: 803px;
+                                            i {
+                                                font-size: 14px;
+                                                color: #999;
+                                            }
+                                            h4 {
+                                                padding-top: 12px;
+                                                em {
+                                                    border: 1px solid #46675c;
+                                                    padding: 0 3px;
+                                                    margin-right: 4px;
+                                                }
+
+                                            }
+                                        }
+                                        .col2 {
+                                            span {
+                                                margin: 2px 8px;
+                                            }
+                                            h5 {
+                                                text-align: center;
+                                                border-bottom: 1px solid #999;
+                                                margin: 10px 50px 0;
+                                                padding: 2px;
+                                                font-size: 14px;
+                                                color: #999;
+                                            }
+                                        }
+                                        .col3 {
+                                            >button {
+                                                background: 0;
+                                                padding: 6px 15px;
+                                                border-radius: 17px;
+                                                border: 1px solid #d1d1d1;
+                                                cursor: pointer;
+                                                &::before {
+                                                    content: "";
+                                                    background: url(../../../../../../public/KHB/img/detailSub/ic_common.png) no-repeat -300px -600px;
+                                                    display: inline-block;
+                                                    vertical-align: middle;
+                                                    width: 19px;
+                                                    height: 20px;
+                                                    margin: 0 5px 0 0;
+                                                }
+                                                >span {
+                                                    font-size: 13px;
+                                                    color: #888;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .bottom {}
+                                }
+                            }
+                        }
+                        .pagenation {
+                            padding: 20px 0 0;
+                            text-align: center;
+                            ul {
+                                display: flex;
+                                text-align: center;
+                                align-items: center;
+                                justify-content: center;
+                                li {
+                                    width: 25px;
+                                    height: 23px;
+                                    margin: 0 4px;
+                                    font-weight: 600;
+                                    &:hover {
+                                        border:1px solid #45675b;
+                                        color: #fff;
+                                    }
+                                    a {
+                                        width: 100%;
+                                        color: #777;
+                                        i {
+                                            width: 25px;
+                                            height: 23px;
+                                            margin: 0 4px;
+                                            font-weight: 600;
+                                            background: url(../../../../../../public/KHB/img/detailSub/ic_arrow.png) no-repeat 0 -300px;
+                                        }
+                                    }
+                                    &:nth-child(1) {
+                                        background: #45675b;
+                                        a {
+                                            color: #fff;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .QnA { // Q&A
+                    padding: 0 12px;
+                    margin-top: 36px;
+                    .qna-container {
+                        padding-top: 22px;
+                        display: flex;
+                        position: relative;
+                        border-bottom: 1px solid #ececec;
+                        ul {
+                            display: flex;
+                            li {
+                                border-top: 1px solid #ececec;
+                                border-right: 1px solid #ececec;
+                                padding: 14px 0;
+                                a {
+                                    padding: 0 55px;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    height: 50px;
+                                }
+                                &:first-child {
+                                    border-right: 0;
+                                    background: #ececec;
+                                }
+                            }
+                        }
+                        button {
+                            position: absolute;
+                            right: 0;
+                            border: 1px solid #45675b;
+                            background: #45675b;
+                            color: #fff;
+                            bottom: 2px;
+                            padding: 0 42px;
+                            height: 48px;
+                            line-height: 48px;
+                            font-size: 17px;
+                            font-weight: 400;
+                        }
+                    }
+                    .qna-content {
+                        border-bottom: 1px solid #ececec;
+                        display: flex;
+                        position: relative;
+                        img {
+                            position: absolute;
+                            left: 30px;
+                            top: 20px;
+                            width: 36px;
+                            height: 36px;
+                        }
+                        .txt {
+                            width: 100%;
+                            padding: 20px 30px 20px 90px;
+                            p {
+                                span {
+                                    float: right;
+                                    font-size: 13px;
+                                    color: #d95756;
+                                }
+                            }
+                            h4 {
+                                margin-top: 10px;
+                                em {
+                                    margin: 0 0 0 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

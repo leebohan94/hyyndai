@@ -1,0 +1,174 @@
+#memberDelete {
+    width: 840px;
+    .container {
+        .title {
+            h3 {
+                padding: 20px 0;
+                font-size: 25px;
+                font-weight: 600;
+                color: #000;
+            }
+        }
+        .content {
+            .thanks-box {
+                padding: 20px 40px;
+                background: #ddd;
+                text-align: center;
+                strong {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #333;
+                }
+                p {
+                    padding-top: 20px;
+                    font-size: 15px;
+                    color: #666;
+                    line-height: 1.4;
+                }
+            }
+            .info-box {
+                padding-top: 20px;
+                padding-bottom: 40px;
+                border-bottom: 1px dashed #ddd;
+                .title-box {
+                    padding-bottom: 30px;
+                    h4 {
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: #222;
+                    }
+                    span {
+                        display: block;
+                        padding: 10px 0;
+                        font-size: 13px;
+                        color: #777;
+                    }
+                }
+                p {
+                    padding-left: 15px;
+                    font-size: 14px;
+                    color: #333;
+                    position: relative;
+                    &::before {
+                        position: absolute;
+                        content: '';
+                        width: 5px;
+                        height: 5px;
+                        top: 0;
+                        left: 0;
+                        background: red;
+                    }
+                    span {
+                        display: block;
+                        padding: 10px 0;
+                        font-size: 13px;
+                        color: #777;
+                    }
+                }
+               
+            }
+            .survey-box {
+                padding-top: 40px;
+                h4 {
+                    font-size: 17px;
+                    color: #333;
+                }
+                span {
+                    display: block;
+                    padding: 10px 0;
+                    font-size: 13px;
+                    color: #777; 
+                }
+                .survey-checkbox {
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: flex-start;
+                    padding: 30px;
+                    border: 3px solid #eee;
+
+                    label {
+                        width: 250px;
+                        font-size: 13px;
+                        padding-bottom: 5px;
+                        padding-right: 5px;
+                        input[type=radio] {
+                            appearance: none;
+                            width: 20px;
+                            height: 20px;
+                            margin-right: 5px;
+                            color: #ccc;
+                            outline: 2px solid #ccc;
+                            outline-offset: -2px;
+                            border-radius: 50%;
+                            background: #fff;
+                            cursor: pointer;
+                            &:checked {
+                                border: 4px solid #fff;
+                                background: #333;
+                                color: #222;
+                            }
+                        }
+                    }
+                    textarea {
+                        text-align: center;
+                        width: 770px;
+                        height: 70px;
+                        resize: none;
+                    }
+                }
+
+            }
+            .last-box {
+                padding-top: 30px;
+                font-size: 13px;
+                p {
+                    padding: 5px 0;
+                    &:nth-child(3) {
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: #333;
+                    }
+                }
+                .red-text {
+                    color: #ec555d;
+                }
+                input {
+                    width: 200px;
+                    height: 40px;
+                    padding: 0 10px;
+                }
+
+            }
+            .btn-box {
+                padding-top: 30px;
+                text-align: center;
+                .submit-btn {
+                    width: 100px;
+                    height: 45px;
+                    margin-right: 10px;
+                    border: 1px solid #333;
+                    background: #333;
+                    font-size: 15px;
+                    font-weight: 600;
+                    color: #fff;
+                    cursor: pointer;
+                    transition: all 0.3s;
+                    &:hover {
+                        background: #111;
+                    }
+
+                }
+                .cancel-btn {
+                    width: 100px;
+                    height: 45px;
+                    border: 1px solid #333;
+                    background: #fff;
+                    font-size: 15px;
+                    font-weight: 600;
+                    color: #333;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

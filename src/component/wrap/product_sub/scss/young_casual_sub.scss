@@ -1,0 +1,341 @@
+#youngCasual {
+    width: 100%;
+    .container {
+        width: 100%;
+        max-width: 1120px;
+        margin: 0 auto;
+        .gap {
+            width: 100%;
+                width: 100%;
+                .title {
+                    width: 100%;
+                }
+                .content {
+                    width: 100%;
+
+                    .category-box {
+                        width: 100%;
+                        display: flex;
+                        flex-flow: row wrap;
+                        h2 {
+                            width: 100%;
+                            text-align: center;
+                        }
+                        .left-box {
+                            width: 230px;
+                            .left-title-box {
+                                height: 104px;
+                                border-top: 1px solid #000;
+                                border-bottom: 1px dotted #ccc;
+                                
+                                h3 {
+                                    line-height: 104px;
+                                    text-align: center;
+                                    font-size: 23px;
+                                    font-weight: 600;
+                                    color: #333;
+                                }
+                            }
+                            .left-category-box {
+                                position: relative;
+                                height: 295px;
+                                padding-top: 20px;
+                                .category-list {
+                                    height: 100%;
+                                    >li {
+                                        width: 100%;
+                                        >a {
+                                            display: block;
+                                            width: 100%;
+                                            padding: 5px 20px;
+                                            font-size: 13px;
+                                            color: #666;
+                                            transition: all 0.1s;
+                                            &:hover {
+                                                background: #333;
+                                                text-decoration: underline;
+                                                color: #fff;
+                                            }
+                                        }
+                                        .sub {
+                                            z-index: 5;
+                                            position: absolute;
+                                            display: none;
+                                            top: 0;
+                                            right: 0;
+                                            width: 180px;
+                                            height: 100%;
+                                            padding-top: 20px;
+                                            transform: translateX(100%);
+                                            background: #fff;
+                                            outline: 1px solid #fff;
+                                            &.on {
+                                                display: block;
+                                            }
+                                            ul {
+                                                li {
+                                                    padding: 5px 20px;
+                                                    a {
+                                                        font-size: 13px;
+                                                        color: #666;
+                                                        transition: all 0.3s;
+                                                        &:hover {
+                                                            text-decoration: underline;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .right-box {
+                            width: 890px;
+                            .slide-container {
+                                width: 100%;
+                                .slide-view {
+                                    position: relative;
+                                    width: 100%;
+                                    overflow: hidden;
+                                    .slide-wrap {
+                                        position: relative;
+                                        display: flex;
+                                        width: 100%*5;
+                                        .slide {
+                                        }
+                                    }
+                                    .play-btn {
+                                        position: absolute;
+                                        bottom: 10px;
+                                        right: 10px;
+                                        width: 34px;
+                                        height: 34px;
+                                        border: none;
+                                        background: url(../../../../../public/PJH/img/icon/btn_play.png) no-repeat 50% 0;
+                                        &.play {
+                                            background-position: 50% 100%;
+                                        }
+                                    }
+                                }
+                            }
+                            .page-btn-box {
+                                width: 100%;
+                                button {
+                                    width: 20%;
+                                    height: 60px;
+                                    border: 0;
+                                    cursor: pointer;
+                                    background: rgba(255, 255, 255, 0.95);
+                                    font-size: 15px;
+                                    color: #767676;
+                                    &.on {
+                                        background: #39594e;
+                                        text-decoration: underline;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .search-box {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                        height: 55px;
+                        padding: 5px 20px;
+                        border-top: 2px solid #aaa;
+                        border-bottom: 1px solid #aaa;
+                        .left-box {
+                            font-size: 17px;
+                        }
+                        .right-box {
+                            input {
+                                width: 180px;
+                                height: 28px;
+                                padding: 0 12px;
+                                margin-right: 15px;
+                            }
+                            a {
+                                display: inline-block;
+                                width: 32px;
+                                height: 22px;
+                                i {
+
+                                }
+                            }
+                        }
+                    }
+                    
+                    .special-brand-box {
+                        width: 100%;
+                        h2 {
+                            margin-bottom: 40px;
+                            font-size: 28px;
+                            font-weight: 600;
+                            text-align: center;
+                        }
+                        .brand-box {
+                            width: 100%;
+                            display: grid;
+                            grid-template-columns: repeat(3, 1fr);
+                            column-gap: 26px;
+                            li {
+                                a {
+                                    .img-box {
+                                        img {
+                                            width: 356px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                    }
+
+                    .new-arrival-box {
+                        h2 {
+                            margin-bottom: 40px;
+                            font-size: 28px;
+                            font-weight: 600;
+                            text-align: center;
+                        }
+                        .product-box {
+                            display: flex;
+                            padding: 20px 0;
+                            border-top: 1px solid #eee;
+                            .left-box {
+                                width: 262px;
+                                .left-category-box {
+                                    width: 100%;
+                                        button {
+                                            width: 100%;
+                                            height: 55px;
+                                            padding: 8px 20px;
+                                            border: none;
+                                            border-top: 1px solid #eee;
+                                            border-bottom: 1px solid #eee;
+                                            background: none;
+                                            text-align: center;
+                                            color: #39594e;
+                                            cursor: pointer;
+                                            &.hover {
+                                            }
+                                            &.on {
+                                                border-left: 7px solid #39594e;
+                                            }
+
+                                        }
+                                }
+                            }
+                            .right-box {
+                                .slide-container {
+                                    width: 858px;//패딩 포함 슬라이드의 너비 286*3
+                                    height: 100%;
+                                    .slide-view {
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow: hidden;
+                                        .slide-wrap {
+                                            position: relative;
+                                            width: 100% * 7;
+                                            height: 100%;
+                                            display: flex;
+                                            .slide {
+                                                width: 286px;
+                                                padding: 0px 15px;
+                                                a {
+                                                    .img-box {
+                                                        img {
+                                                            width: 256px;
+                                                        }
+                                                    }
+                                                    .text-box {
+                                                        margin: 0 8px;
+                                                        padding-top: 15px;
+                                                        .price-info {
+                                                            .discount-price {
+                                                                font-size: 23px;
+                                                                font-weight: 700;
+                                                                color: #333;
+                                                            }
+                                                            .original-price {
+                                                                margin-left: 10px;
+                                                                font-size: 13px;
+                                                                color: #999;
+                                                                font-weight: 400;
+                                                            }
+                                                        }
+                                                        .goods-info {
+                                                            height: 36px;
+                                                            overflow: hidden;
+                                                            text-overflow: ellipsis;
+                                                            margin-top: 12px;
+                                                            padding-bottom: 5px;
+                                                            font-size: 13px;
+                                                            color: #757575;
+                                                            line-height: 18px;
+                                                            display: -webkit-box;
+                                                            -webkit-line-clamp: 2;
+                                                            -webkit-box-orient:vertical;
+                                                            white-space: normal;
+                                                            
+                                                        }
+                                                        .additional-info {
+                                                            margin-top: 15px;
+                                                            padding-top: 10px;
+                                                            border-top: 1px solid #eee;
+                                                            .d1 {
+                                                                //현대백화점
+                                                                margin-left: 1px;
+                                                                padding: 0 3px;
+                                                                border: 1px solid #46675c;
+                                                                background: #46675c;
+                                                                color: #fff;
+                                                                font-size: 12px;
+                                                            }
+                                                            .d2 {
+                                                                //스토어픽
+                                                                margin-left: 1px;
+                                                                padding: 0 3px;
+                                                                border: 1px solid #da3e43;
+                                                                background: #fff;
+                                                                color: #da3e43;
+                                                                font-size: 12px;
+                                                            }
+                                                            .d3 {
+                                                                //무이자
+                                                                margin-left: 1px;
+                                                                padding: 0 3px;
+                                                                border: 1px solid #818181;
+                                                                background: #818181;
+                                                                color: #fff;
+                                                                font-size: 12px;
+                                                            }
+                                                            .d4 {
+                                                                //무료배송
+                                                                margin-left: 1px;
+                                                                padding: 0 3px;
+                                                                border: 1px solid #c4ad8f;
+                                                                background: #c4ad8f;
+                                                                color: #fff;
+                                                                font-size: 12px;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            
+        }
+    }
+}

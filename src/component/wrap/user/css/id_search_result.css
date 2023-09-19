@@ -1,0 +1,47 @@
+#signInIdResult {
+  width: 100%;
+}
+#signInIdResult .container {
+  width: 1360px;
+  margin: 0 auto;
+}
+#signInIdResult .container .title h2 {
+  line-height: 1.4;
+  padding-top: 80px;
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+#signInIdResult .container .title p {
+  text-align: center;
+  display: block;
+  padding: 10px 0;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+#signInIdResult .container form ul li span {
+  text-align: center;
+  font-size: 16px;
+}
+#signInIdResult .container form ul li span strong {
+  display: block;
+}
+#signInIdResult .container form ul li span em {
+  display: block;
+}
+#signInIdResult .container form ul li button {
+  cursor: pointer;
+  margin: 50px auto 0 auto;
+  display: block;
+  width: 220px;
+  height: 70px;
+  padding: 0 30px;
+  background: #4e2bf4;
+  border: 1px solid #4e2bf4;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}

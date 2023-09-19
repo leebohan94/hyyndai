@@ -1,0 +1,73 @@
+#notice{
+    width: 100%;
+    padding: 0 0 150px 0;
+    position: relative;
+    #container{
+        width: 100%;
+        max-width: 1120px;
+        margin: 0 auto;
+        display: flex;
+        .gap{
+            width: 100%;
+            .title{
+                
+                .top-title{
+                    text-align: left;
+                    height: 40px;
+                    margin: 0 0 15px 0;
+                    ul{
+                        width: 100%;
+                        display: flex;
+                        text-align: center;
+                        align-items: center;
+                        justify-content: left;
+                        li{
+                            width: 50px;
+                            margin: 0 0 0 -15px;
+                            &:nth-child(1){
+                                padding: 0 0 0 12px;
+                            }
+                            h1{
+                                padding: 5px 0 0 0;
+                                font-size: 11px;
+                                font-weight: 400;
+                                line-height: 40px;
+                                color: rgb(102, 102, 102);
+                                cursor: pointer;
+                                &:hover {
+                                    color: #46675c;
+                                    font-weight: 700;
+                                }
+                            }
+                            &:nth-child(2),
+                            &:nth-child(4){
+                                &::before{
+                                    content: "";
+                                    display: inline-block;
+                                    
+                                    width: 4px;
+                                    height: 7px;
+                                    background: url(../../../../../public/img/HSM/notice/ic_arrow.png) no-repeat -100px -300px;
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+                .content{
+                    display: flex;
+                    #NoticeLeftComponent{}
+                    #NoticeRightComponent{}
+                }
+        }
+
+        }
+        .border{
+            position: absolute;
+            top: -5px;
+            left: 0;
+            border-top: 1px solid #333;
+            width: 1903px;
+        }
+    }

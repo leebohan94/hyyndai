@@ -1,0 +1,91 @@
+.member-header {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 840px;
+    height: 96px;
+    padding: 11px 0;
+    background: url(../../../../../public/PJH/img/mypage/bg_myhyundai_summary.png) no-repeat 50% 50%;
+    span {
+        font-size: 19px;
+        color: #fff;
+        
+        figure {
+            display: inline-block;
+            width: 74px;
+            height: 74px;
+            background: url(../../../../../public/PJH/img/mypage/ic_grade_mark3.png) no-repeat 50% 50%;
+        }
+    }
+    a {
+        position: relative;
+        width: 136px;
+        height: 26px;
+        margin: 0 5px;
+        border: 1px solid #fff;
+        text-align: center;
+        line-height: 26px;
+        font-size: 13px;
+        color: #fff;
+        &::after {
+            position: absolute;
+            content: '';
+            width: 4px;
+            height: 7px;
+            top: 9px;
+            right: 5px;
+            background: url(../../../../../public/PJH/img/icon/ic_arrow.png) no-repeat -600px -400px;
+        }
+    }
+}
+
+.member-summary {
+    width: 840px;
+    height: 100px;
+    padding: 20px 0;
+    background: #edc5e0;
+    table {
+        text-align: left;
+        border-collapse: collapse;
+        thead {
+            tr {
+                th {
+                    width: 210px;
+                    padding: 0 25px;
+                    border-right: 1px solid #fff;
+                    font-size: 15px;
+                    color: #555;
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    width: 210px;
+                    padding: 20px 25px 0 25px;
+                    border-right: 1px solid #fff;
+                    font-size: 20px;
+                    color: #555;
+                }
+            }
+        }
+        .myclub-box {
+            h3 {}
+            span {}
+            button {}
+        }
+        .order-check-box {
+            .title-box {
+                h3 {}
+                span {}
+            }
+        }
+        .recent-order-box {
+            .title-box {
+                h3 {}
+                span {}
+            }
+        }
+    }
+}

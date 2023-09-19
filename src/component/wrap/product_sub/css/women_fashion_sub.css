@@ -1,0 +1,359 @@
+#womenFashion {
+  width: 100%;
+}
+#womenFashion .container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+#womenFashion .container .gap {
+  width: 100%;
+  width: 100%;
+}
+#womenFashion .container .gap .title {
+  width: 100%;
+}
+#womenFashion .container .gap .content {
+  width: 100%;
+}
+#womenFashion .container .gap .content .women-header > ul {
+  display: flex;
+}
+#womenFashion .container .gap .content .women-header > ul > li > a {
+  padding-right: 20px;
+  font-size: 11px;
+}
+#womenFashion .container .gap .content .women-header > ul > li.menu2 {
+  position: relative;
+}
+#womenFashion .container .gap .content .women-header > ul > li.menu2::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 7px;
+  padding-right: 12px;
+  background: url(../../../../../public/PJH/img/icon/ic_arrow.png) no-repeat -100px -300px;
+}
+#womenFashion .container .gap .content .women-header > ul > li.menu2::after {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 3px;
+  padding-right: 12px;
+  background: url(../../../../../public/PJH/img/icon/ic_bread_toggle.png) no-repeat 0 0;
+}
+#womenFashion .container .gap .content .women-header > ul > li .sub {
+  z-index: 3;
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  width: 112px;
+  padding: 8px 18px;
+  border: 1px solid #46675c;
+  background: #fff;
+}
+#womenFashion .container .gap .content .women-header > ul > li .sub li {
+  width: 100%;
+  white-space: nowrap;
+}
+#womenFashion .container .gap .content .women-header > ul > li .sub li a {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  padding-right: 15px;
+  font-size: 11px;
+  line-height: 18px;
+}
+#womenFashion .container .gap .content .women-header > ul > li .sub li a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 5px;
+  height: 9px;
+  margin-top: -5%;
+  background: url(../../../../../public/PJH/img/icon/ic_arrow.png) no-repeat -100px -400px;
+}
+#womenFashion .container .gap .content .category-box {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+#womenFashion .container .gap .content .category-box h2 {
+  width: 100%;
+  text-align: center;
+}
+#womenFashion .container .gap .content .category-box .left-box {
+  width: 230px;
+}
+#womenFashion .container .gap .content .category-box .left-box .left-title-box {
+  height: 104px;
+  border-top: 1px solid #000;
+  border-bottom: 1px dotted #ccc;
+}
+#womenFashion .container .gap .content .category-box .left-box .left-title-box h3 {
+  line-height: 104px;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+  color: #333;
+}
+#womenFashion .container .gap .content .category-box .left-box .left-category-box {
+  position: relative;
+  height: 295px;
+  padding-top: 20px;
+}
+#womenFashion .container .gap .content .category-box .left-box .left-category-box .category-list {
+  height: 100%;
+}
+#womenFashion .container .gap .content .category-box .left-box .left-category-box .category-list > li {
+  width: 100%;
+}
+#womenFashion .container .gap .content .category-box .left-box .left-category-box .category-list > li > a {
+  display: block;
+  width: 100%;
+  padding: 5px 20px;
+  font-size: 13px;
+  color: #666;
+  transition: all 0.1s;
+}
+#womenFashion .container .gap .content .category-box .left-box .left-category-box .category-list > li > a:hover {
+  background: #333;
+  text-decoration: underline;
+  color: #fff;
+}
+#womenFashion .container .gap .content .category-box .left-box .left-category-box .category-list > li .sub {
+  z-index: 5;
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 0;
+  width: 180px;
+  height: 100%;
+  padding-top: 20px;
+  transform: translateX(100%);
+  background: #fff;
+  outline: 1px solid #fff;
+}
+#womenFashion .container .gap .content .category-box .left-box .left-category-box .category-list > li .sub.on {
+  display: block;
+}
+#womenFashion .container .gap .content .category-box .left-box .left-category-box .category-list > li .sub ul li {
+  padding: 5px 20px;
+}
+#womenFashion .container .gap .content .category-box .left-box .left-category-box .category-list > li .sub ul li a {
+  font-size: 13px;
+  color: #666;
+  transition: all 0.3s;
+}
+#womenFashion .container .gap .content .category-box .left-box .left-category-box .category-list > li .sub ul li a:hover {
+  text-decoration: underline;
+}
+#womenFashion .container .gap .content .category-box .right-box {
+  width: 890px;
+}
+#womenFashion .container .gap .content .category-box .right-box .slide-container {
+  width: 100%;
+}
+#womenFashion .container .gap .content .category-box .right-box .slide-container .slide-view {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#womenFashion .container .gap .content .category-box .right-box .slide-container .slide-view .slide-wrap {
+  position: relative;
+  display: flex;
+  width: 500%;
+}
+#womenFashion .container .gap .content .category-box .right-box .slide-container .slide-view .play-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 34px;
+  height: 34px;
+  border: none;
+  background: url(../../../../../public/PJH/img/icon/btn_play.png) no-repeat 50% 0;
+}
+#womenFashion .container .gap .content .category-box .right-box .slide-container .slide-view .play-btn.play {
+  background-position: 50% 100%;
+}
+#womenFashion .container .gap .content .category-box .right-box .page-btn-box {
+  width: 100%;
+}
+#womenFashion .container .gap .content .category-box .right-box .page-btn-box button {
+  width: 20%;
+  height: 60px;
+  border: 0;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.95);
+  font-size: 15px;
+  color: #767676;
+}
+#womenFashion .container .gap .content .category-box .right-box .page-btn-box button.on {
+  background: #39594e;
+  text-decoration: underline;
+  color: #fff;
+}
+#womenFashion .container .gap .content .search-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  padding: 5px 20px;
+  border-top: 2px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+#womenFashion .container .gap .content .search-box .left-box {
+  font-size: 17px;
+}
+#womenFashion .container .gap .content .search-box .right-box input {
+  width: 180px;
+  height: 28px;
+  padding: 0 12px;
+  margin-right: 15px;
+}
+#womenFashion .container .gap .content .search-box .right-box a {
+  display: inline-block;
+  width: 32px;
+  height: 22px;
+}
+#womenFashion .container .gap .content .special-brand-box {
+  width: 100%;
+}
+#womenFashion .container .gap .content .special-brand-box h2 {
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+#womenFashion .container .gap .content .special-brand-box .brand-box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 26px;
+       column-gap: 26px;
+}
+#womenFashion .container .gap .content .special-brand-box .brand-box li a .img-box img {
+  width: 356px;
+}
+#womenFashion .container .gap .content .new-arrival-box h2 {
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box {
+  display: flex;
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .left-box {
+  width: 262px;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .left-box .left-category-box {
+  width: 100%;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .left-box .left-category-box button {
+  width: 100%;
+  height: 55px;
+  padding: 8px 20px;
+  border: none;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  background: none;
+  text-align: center;
+  color: #39594e;
+  cursor: pointer;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .left-box .left-category-box button.on {
+  border-left: 7px solid #39594e;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .right-box .slide-container {
+  width: 858px;
+  height: 100%;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .right-box .slide-container .slide-view {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .right-box .slide-container .slide-view .slide-wrap {
+  position: relative;
+  width: 700%;
+  height: 100%;
+  display: flex;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .right-box .slide-container .slide-view .slide-wrap .slide {
+  width: 286px;
+  padding: 0px 15px;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .right-box .slide-container .slide-view .slide-wrap .slide a .img-box img {
+  width: 256px;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .right-box .slide-container .slide-view .slide-wrap .slide a .text-box {
+  margin: 0 8px;
+  padding-top: 15px;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .right-box .slide-container .slide-view .slide-wrap .slide a .text-box .price-info .discount-price {
+  font-size: 23px;
+  font-weight: 700;
+  color: #333;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .right-box .slide-container .slide-view .slide-wrap .slide a .text-box .price-info .original-price {
+  margin-left: 10px;
+  font-size: 13px;
+  color: #999;
+  font-weight: 400;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .right-box .slide-container .slide-view .slide-wrap .slide a .text-box .goods-info {
+  height: 36px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 12px;
+  padding-bottom: 5px;
+  font-size: 13px;
+  color: #757575;
+  line-height: 18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .right-box .slide-container .slide-view .slide-wrap .slide a .text-box .additional-info {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .right-box .slide-container .slide-view .slide-wrap .slide a .text-box .additional-info .d1 {
+  margin-left: 1px;
+  padding: 0 3px;
+  border: 1px solid #46675c;
+  background: #46675c;
+  color: #fff;
+  font-size: 12px;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .right-box .slide-container .slide-view .slide-wrap .slide a .text-box .additional-info .d2 {
+  margin-left: 1px;
+  padding: 0 3px;
+  border: 1px solid #da3e43;
+  background: #fff;
+  color: #da3e43;
+  font-size: 12px;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .right-box .slide-container .slide-view .slide-wrap .slide a .text-box .additional-info .d3 {
+  margin-left: 1px;
+  padding: 0 3px;
+  border: 1px solid #818181;
+  background: #818181;
+  color: #fff;
+  font-size: 12px;
+}
+#womenFashion .container .gap .content .new-arrival-box .product-box .right-box .slide-container .slide-view .slide-wrap .slide a .text-box .additional-info .d4 {
+  margin-left: 1px;
+  padding: 0 3px;
+  border: 1px solid #c4ad8f;
+  background: #c4ad8f;
+  color: #fff;
+  font-size: 12px;
+}

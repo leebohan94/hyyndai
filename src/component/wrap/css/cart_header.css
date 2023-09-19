@@ -1,0 +1,29 @@
+#cartHeader {
+  width: 100%;
+  z-index: 3;
+}
+#cartHeader .container {
+  width: 100%;
+  height: 114px;
+  margin: 0 auto;
+  border-bottom: 2px solid #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cartHeader .container .logo {
+  width: 230px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#cartHeader .container .logo h1 {
+  width: 100%;
+}
+#cartHeader .container .logo h1 a {
+  width: 100%;
+}
+#cartHeader .container .logo h1 a img {
+  width: 100%;
+}
