@@ -1,0 +1,640 @@
+#section8 {
+    position: relative;
+    width: 100%;
+    padding: 150px 0 0 0;
+
+    .container {
+        width: 100%;
+        max-width: 1903px;
+
+        .gap {
+            width: 100%;
+
+            .title {
+                width: 100%;
+                max-width: 1280px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                padding: 0 0 50px 0;
+
+                h1 {
+                    font-size: 50px;
+                    font-weight: 700;
+                    color: #000;
+                    line-height: 71.25px;
+                }
+
+                h2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    font-size: 18px;
+                    font-weight: 300;
+                    line-height: 25.65px;
+                    color: #000;
+                    padding: 0 0 3px 0;
+                    text-decoration: underline;
+                }
+
+                &.on {
+                    transform: translateY(100px);
+                    animation: sec8Ani 2s ease-in-out both;
+
+                    @keyframes sec8Ani {
+                        0% {
+                            transform: translateY(60px);
+                        }
+
+                        100% {
+                            transform: translateY(0px);
+                        }
+                    }
+                }
+            }
+
+            .content {
+                position: relative;
+                width: 1903px;
+                height: 800px;
+                background-color: rgb(248, 248, 248);
+
+                .cover {
+                    position: relative;
+                    z-index: 1;
+                    width: 100%;
+                    transition: all 0.3s;
+
+                    &.on {
+                        transition: all 0.3s;
+
+                        .row1 {
+                            transition: all 0.3s;
+                            opacity: 0;
+                            z-index: 2;
+                        }
+
+                        .row2 {
+                            transition: all 0.3s;
+                            opacity: 1;
+                            z-index: 2;
+                        }
+
+
+                    }
+
+                    .row1 {
+                        position: absolute;
+                        z-index: 2;
+                        top: 0;
+                        left: 310px;
+                        opacity: 0;
+                        transition: all 0.3s;
+                        display: flex;
+                        width: 100%;
+                        max-width: 1280px;
+                        margin: 0 auto;
+                        padding: 50px 0;
+                        &.on {
+                            transition: all 0.3s;
+                            opacity: 1;
+                            z-index: 3;
+                        }
+                        .left-box {
+                            width: 100%;
+
+                            .left-box-text-box {
+                                width: 380px;
+
+                                ul {
+
+                                    li {
+                                        h1 {
+                                            font-size: 24px;
+                                            font-weight: 500px;
+                                            line-height: 34.2px;
+                                            text-align: left;
+                                            color: #000;
+                                        }
+
+                                        h2 {
+                                            margin: 15px 0 0 0;
+                                            font-size: 20px;
+                                            font-weight: 300;
+                                            line-height: 28.5px;
+                                            text-align: left;
+                                            color: rgb(142, 142, 142);
+                                        }
+                                    }
+                                }
+
+                                &.on {
+
+                                    transform: translateY(1000px);
+                                    animation: sec8Ana 2s ease-in-out both;
+
+                                    @keyframes sec8Ana {
+                                        0% {
+                                            transform: translateY(300px);
+                                        }
+
+                                        100% {
+                                            transform: translateY(0px);
+                                        }
+                                    }
+
+                                }
+                            }
+
+                            .left-box-button-box {
+                                width: 100%;
+                                margin: 50px 0 0 0;
+
+                                ul {
+                                    li {
+                                        &:nth-child(1) {
+                                            button {
+                                                cursor: pointer;
+                                                padding: 8px 15px 9px 15px;
+                                                font-size: 18px;
+                                                font-weight: 300;
+                                                text-align: center;
+                                                border-radius: 20px;
+                                                color: #fff;
+                                                background: #000;
+                                                border: 1px solid #000;
+
+                                                &.on {
+                                                    display: block;
+                                                }
+                                            }
+                                        }
+
+                                        &:nth-child(2) {
+                                            margin: 14px 0 0 0;
+
+                                            button {
+                                                cursor: pointer;
+                                                padding: 8px 15px 9px 15px;
+                                                background: #fff;
+                                                border: 1px solid #000;
+                                                color: #000;
+                                                font-size: 18px;
+                                                font-weight: 300;
+                                                text-align: center;
+                                                border-radius: 20px;
+
+                                                &.on {
+                                                    display: block;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .center-box {
+                            display: flex;
+                            width: 100%;
+                            margin: 0 30px 0 0;
+
+                            .center-box-zoom {
+                                width: 500px;
+                                height: 700px;
+                                overflow: hidden;
+                                transition: all 0.3s;
+
+                                &:hover {
+                                    a {
+                                        img {
+                                            transition: all 0.5s;
+                                            transform: scale(1.03);
+                                        }
+                                    }
+                                }
+
+                                a {
+                                    img {
+                                        width: 520px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .right-box {
+                            width: 100%;
+                            cursor: pointer;
+
+                            .right-box-top-img {
+                                position: relative;
+
+                                &:hover {
+                                    .right-top-text-box {
+                                        display: block;
+                                    }
+
+                                    .bgCol {
+                                        display: block;
+                                    }
+
+                                    .right-box-top-zoom {
+                                        img {
+                                            transition: all 0.3s ease-in-out;
+                                            transform: scale(1.03);
+                                        }
+                                    }
+                                }
+
+                                .right-box-top-zoom {
+                                    position: relative;
+                                    z-index: 2;
+                                    top: 0;
+                                    width: 350px;
+                                    height: 335px;
+                                    overflow: hidden;
+
+                                    a {
+                                        img {
+                                            width: 350px;
+                                            height: 335px;
+                                        }
+                                    }
+                                }
+
+                                .bgCol {
+                                    display: none;
+                                    position: absolute;
+                                    z-index: 2;
+                                    width: 350px;
+                                    height: 335px;
+                                    top: 0;
+                                    background: rgba(0, 0, 0, 0.5);
+                                }
+
+                                .right-top-text-box {
+                                    display: none;
+                                    position: absolute;
+                                    z-index: 3;
+                                    bottom: 0px;
+                                    left: 0px;
+
+                                    h1 {
+                                        padding: 30px;
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        text-align: left;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+
+                            .right-box-bottom-img {
+                                margin: 30px 0 0 0;
+                                position: relative;
+
+                                &:hover {
+                                    .right-bottom-text-box {
+                                        display: block;
+                                    }
+
+                                    .bgCol {
+                                        display: block;
+                                    }
+
+                                    .right-box-bottom-zoom {
+                                        img {
+                                            transition: all 0.3s ease-in-out;
+                                            transform: scale(1.03);
+                                        }
+                                    }
+                                }
+
+                                .right-box-bottom-zoom {
+                                    position: relative;
+                                    z-index: 2;
+                                    top: 0;
+                                    width: 350px;
+                                    height: 335px;
+                                    overflow: hidden;
+
+                                    a {
+                                        img {
+                                            width: 350px;
+                                            height: 335px;
+                                        }
+                                    }
+                                }
+
+                                .bgCol {
+                                    display: none;
+                                    position: absolute;
+                                    z-index: 2;
+                                    width: 350px;
+                                    height: 335px;
+                                    top: 0;
+                                    background: rgba(0, 0, 0, 0.5);
+                                }
+
+                                .right-bottom-text-box {
+                                    display: none;
+                                    position: absolute;
+                                    z-index: 3;
+                                    bottom: 0px;
+                                    left: 0px;
+
+                                    h1 {
+                                        padding: 30px;
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        text-align: left;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    .row2 {
+                        position: absolute;
+                        z-index: 2;
+                        top: 0;
+                        left: 310px;
+                        opacity: 0;
+                        transition: all 0.3s;
+                        display: flex;
+                        width: 100%;
+                        max-width: 1280px;
+                        margin: 0 auto;
+                        padding: 50px 0;
+                        &.on {
+                            transition: all 0.3s;
+                            opacity: 1;
+                            z-index: 2;
+                        }
+                        .left-box {
+                            width: 100%;
+
+                            .left-box-text-box {
+                                width: 380px;
+
+                                ul {
+
+                                    li {
+                                        h1 {
+                                            font-size: 24px;
+                                            font-weight: 500px;
+                                            line-height: 34.2px;
+                                            text-align: left;
+                                            color: #000;
+                                        }
+
+                                        h2 {
+                                            margin: 15px 0 0 0;
+                                            font-size: 20px;
+                                            font-weight: 300;
+                                            line-height: 28.5px;
+                                            text-align: left;
+                                            color: rgb(142, 142, 142);
+                                        }
+                                    }
+                                }
+
+                                &.on {
+
+                                    transform: translateY(1000px);
+                                    animation: sec8Ana 2s ease-in-out both;
+
+                                    @keyframes sec8Ana {
+                                        0% {
+                                            transform: translateY(300px);
+                                        }
+
+                                        100% {
+                                            transform: translateY(0px);
+                                        }
+                                    }
+
+                                }
+                            }
+
+                            .left-box-button-box {
+                                width: 100%;
+                                margin: 50px 0 0 0;
+
+                                ul {
+                                    li {
+                                        &:nth-child(1) {
+                                            button {
+                                                cursor: pointer;
+                                                padding: 8px 15px 9px 15px;
+                                                background: #fff;
+                                                border: 1px solid #000;
+                                                color: #000;
+                                                font-size: 18px;
+                                                font-weight: 300;
+                                                text-align: center;
+                                                border-radius: 20px;
+                                            }
+
+                                        }
+
+                                        &:nth-child(2) {
+                                            margin: 14px 0 0 0;
+
+                                            button {
+                                                cursor: pointer;
+                                                padding: 8px 15px 9px 15px;
+                                                font-size: 18px;
+                                                font-weight: 300;
+                                                text-align: center;
+                                                border-radius: 20px;
+                                                color: #fff;
+                                                background: #000;
+                                                border: 1px solid #000;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .center-box {
+                            display: flex;
+                            width: 100%;
+                            margin: 0 30px 0 0;
+
+                            .center-box-zoom {
+                                width: 500px;
+                                height: 700px;
+                                overflow: hidden;
+                                transition: all 0.3s;
+
+                                &:hover {
+                                    a {
+                                        img {
+                                            transition: all 0.5s;
+                                            transform: scale(1.03);
+                                        }
+                                    }
+                                }
+
+                                a {
+                                    img {
+                                        width: 520px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .right-box {
+                            width: 100%;
+                            cursor: pointer;
+
+                            .right-box-top-img {
+                                position: relative;
+
+                                &:hover {
+                                    .right-top-text-box {
+                                        display: block;
+                                    }
+
+                                    .bgCol {
+                                        display: block;
+                                    }
+
+                                    .right-box-top-zoom {
+                                        img {
+                                            transition: all 0.3s ease-in-out;
+                                            transform: scale(1.03);
+                                        }
+                                    }
+                                }
+
+                                .right-box-top-zoom {
+                                    position: relative;
+                                    z-index: 2;
+                                    top: 0;
+                                    width: 350px;
+                                    height: 335px;
+                                    overflow: hidden;
+
+                                    a {
+                                        img {
+                                            width: 350px;
+                                            height: 335px;
+                                        }
+                                    }
+                                }
+
+                                .bgCol {
+                                    display: none;
+                                    position: absolute;
+                                    z-index: 2;
+                                    width: 350px;
+                                    height: 335px;
+                                    top: 0;
+                                    background: rgba(0, 0, 0, 0.5);
+                                }
+
+                                .right-top-text-box {
+                                    display: none;
+                                    position: absolute;
+                                    z-index: 3;
+                                    bottom: 0px;
+                                    left: 0px;
+
+                                    h1 {
+                                        padding: 30px;
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        text-align: left;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+
+                            .right-box-bottom-img {
+                                margin: 30px 0 0 0;
+                                position: relative;
+
+                                &:hover {
+                                    .right-bottom-text-box {
+                                        display: block;
+                                    }
+
+                                    .bgCol {
+                                        display: block;
+                                    }
+
+                                    .right-box-bottom-zoom {
+                                        img {
+                                            transition: all 0.3s ease-in-out;
+                                            transform: scale(1.03);
+                                        }
+                                    }
+                                }
+
+                                .right-box-bottom-zoom {
+                                    position: relative;
+                                    z-index: 2;
+                                    top: 0;
+                                    width: 350px;
+                                    height: 335px;
+                                    overflow: hidden;
+
+                                    a {
+                                        img {
+                                            width: 350px;
+                                            height: 335px;
+                                        }
+                                    }
+                                }
+
+                                .bgCol {
+                                    display: none;
+                                    position: absolute;
+                                    z-index: 2;
+                                    width: 350px;
+                                    height: 335px;
+                                    top: 0;
+                                    background: rgba(0, 0, 0, 0.5);
+                                }
+
+                                .right-bottom-text-box {
+                                    display: none;
+                                    position: absolute;
+                                    z-index: 3;
+                                    bottom: 0px;
+                                    left: 0px;
+
+                                    h1 {
+                                        padding: 30px;
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        text-align: left;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .img {
+        position: absolute;
+        z-index: 1;
+        top: 270px;
+        left: 230px;
+
+        img {
+            width: 100%;
+        }
+    }
+}

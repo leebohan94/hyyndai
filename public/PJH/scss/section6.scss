@@ -1,0 +1,76 @@
+#section6 {
+    width: 100%;
+    .container {
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        .gap {
+            width: 100%;
+            .title {
+                padding-bottom: 60px;
+                h2 {
+                    font-size: 50px;
+                    color: #000;
+                    font-weight: 700;
+                }
+            }
+            .content {
+                width: 100%;
+                .slide-container {
+                    width: 100%;
+                    .slide-view {
+                        width: 100%;
+                        overflow: hidden;
+                        .slide-wrap {
+                            position: relative;
+                            display: flex;
+                            margin-left: -100%;
+                            .slide {
+                                .slide-box {
+                                    display: grid;
+                                    grid-template-columns: repeat(3, 1fr);
+                                    grid-template-rows: repeat(1, 1fr);
+                                    column-gap: 40px;
+                                    li {
+                                        a {
+                                            .img-box {
+                                                img {}
+                                            }
+                                            .text-box {
+                                                padding: 30px 20px;
+                                                h3 {
+                                                    font-size: 24px;
+                                                    font-weight: 500;
+                                                    color: #000;
+                                                    text-align: center;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .page-btn-box {
+                    width: 100%;
+                    text-align: center;
+                    button {
+                        padding: 4px;
+                        margin: 0 6px;
+                        background: none;
+                        border: none;
+                        font-size: 18px;
+                        font-weight: 700;
+                        color: rgba(0,0,0, 0.4);
+                        cursor: pointer;
+                        &.on {
+                            border-bottom: 1px solid #000;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

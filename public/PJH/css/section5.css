@@ -1,0 +1,91 @@
+#section5 {
+  width: 100%;
+}
+#section5 .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#section5 .container .gap {
+  width: 100%;
+}
+#section5 .container .gap .title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+#section5 .container .gap .title h2 {
+  font-size: 50px;
+  color: #000;
+  font-weight: 700;
+}
+#section5 .container .gap .title a {
+  display: flex;
+  align-items: end;
+  font-size: 18px;
+  text-decoration: underline;
+}
+#section5 .container .gap .content {
+  display: flex;
+  width: 100%;
+  background: #f8f8f8;
+}
+#section5 .container .gap .content .left-box {
+  width: 50%;
+  padding: 70px 50px 0 50px;
+  border-right: 1px solid #eaeaea;
+}
+#section5 .container .gap .content .left-box .text-box1 p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #949494;
+  line-height: 1.7;
+}
+#section5 .container .gap .content .left-box .img-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  background: url(../img/intro/section5_bg.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+#section5 .container .gap .content .left-box .img-box figure {
+  width: 520px;
+  overflow: hidden;
+}
+#section5 .container .gap .content .left-box .img-box figure img {
+  transition: all 0.3s;
+}
+#section5 .container .gap .content .left-box .img-box figure img:hover {
+  transform: scale(1.02);
+}
+#section5 .container .gap .content .left-box .text-box2 {
+  margin-top: 55px;
+}
+#section5 .container .gap .content .left-box .text-box2 .text1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #000;
+}
+#section5 .container .gap .content .left-box .text-box2 .text2 {
+  margin-top: 13px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+#section5 .container .gap .content .right-box {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding: 70px 0;
+}
+#section5 .container .gap .content .right-box .img-box {
+  overflow: hidden;
+  width: 480px;
+}
+#section5 .container .gap .content .right-box .img-box img {
+  transition: all 0.3s;
+}
+#section5 .container .gap .content .right-box .img-box img:hover {
+  transform: scale(1.02);
+}

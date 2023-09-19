@@ -1,0 +1,41 @@
+#section4 {
+    width: 100%;
+    .container {
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        .gap {
+            width: 100%;
+            .title {
+                padding-bottom: 60px;
+                h2 {
+                    font-size: 50px;
+                    color: #000;
+                    font-weight: 700;
+                }
+            }
+            .content {
+                width: 100%;
+                .slide-container {
+                    width: 100%;
+                    .slide-view {
+                        width: 100%;
+                        overflow: hidden;
+                        .slide-wrap {
+                            width: 100% * 4;
+                            position: relative;
+                            display: flex;
+                            margin-left: -1305px;
+                            .slide {
+                                margin-right: 25px;
+                                img {
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

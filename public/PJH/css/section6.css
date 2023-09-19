@@ -1,0 +1,68 @@
+#section6 {
+  width: 100%;
+}
+#section6 .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#section6 .container .gap {
+  width: 100%;
+}
+#section6 .container .gap .title {
+  padding-bottom: 60px;
+}
+#section6 .container .gap .title h2 {
+  font-size: 50px;
+  color: #000;
+  font-weight: 700;
+}
+#section6 .container .gap .content {
+  width: 100%;
+}
+#section6 .container .gap .content .slide-container {
+  width: 100%;
+}
+#section6 .container .gap .content .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+}
+#section6 .container .gap .content .slide-container .slide-view .slide-wrap {
+  position: relative;
+  display: flex;
+  margin-left: -100%;
+}
+#section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide .slide-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+#section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide .slide-box li a .text-box {
+  padding: 30px 20px;
+}
+#section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide .slide-box li a .text-box h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+}
+#section6 .container .gap .content .page-btn-box {
+  width: 100%;
+  text-align: center;
+}
+#section6 .container .gap .content .page-btn-box button {
+  padding: 4px;
+  margin: 0 6px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+#section6 .container .gap .content .page-btn-box button.on {
+  border-bottom: 1px solid #000;
+  color: #000;
+}
