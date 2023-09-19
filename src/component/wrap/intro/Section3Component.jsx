@@ -37,7 +37,7 @@ export default function Section3Component() {
                                                     <span>[제이에스티나] ETER 14K 목걸이 (JJERNQ3BS650R4420)</span>
                                                 </div>
                                                 <div className="box box1">
-                                                    <img src={process.env.PUBLIC_URL+"/CYS/img/intro/thehyundai_intro_sec3_2.jpg"} alt="" />
+                                                    <img src={process.env.PUBLIC_URL+"/CYS/img/intro/thehyundai_intro_sec3_1.jpg"} alt="" />
                                                     <span>[제이에스티나] ETER 14K 귀걸이 (JJEREQ3BS660R4000)</span>
                                                 </div>
                                             </div>
@@ -50,7 +50,7 @@ export default function Section3Component() {
                                     <div className={`slide slide2${cnt===1?' on':''}`}>
                                         <div className="top-box">
                                             <div className="video-box">
-                                                <video loop muted autoPlay src={process.env.PUBLIC_URL + "/CYS/video/intro_sec3_2.mp4"}></video>
+                                                <video loop muted autoPlay src={process.env.PUBLIC_URL + "/CYS/video/intro_sec3_1.mp4"}></video>
                                             </div>
                                             <div className="img-box">
                                                 <div className="box box1">
