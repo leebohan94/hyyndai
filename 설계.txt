@@ -1,0 +1,459 @@
+1. public 폴더 내 css, scss, data, img 모든파일은 본인 이니셜 폴더에 생성할 것.
+2. intro 페이지의 각 section 구조는 wrap으로 시작하는게 아니라 id='section' 으로 시작할 것.
+3. 
+
+
+
+
+
+자주쓰는 색상 #231f20
+
+화장품
+명품/잡화
+여성패션
+영캐주얼
+진/이지
+남성패션
+유아동/문화
+스포츠/레저
+리빙/가전
+식품
+
+
+
+침구/카페트/커튼
+생활/인테리어
+바디/욕실용품
+주방/조리/식기
+주방/TV/냉장고/세탁기
+컴퓨터/스마트폰/카메라
+거실/침실 가구
+
+
+
+
+
+생활/인테리어
+	-액자/시계/거울
+	-수납/정리
+	-캔들/방향제/디퓨저
+	-화병
+	-손/발 관리용품
+	-기타 생활용품
+	-서비스/배달
+	-조명
+	-디자인소품
+바디/욕실용품
+	-바디용품
+	-비누/세정제
+	-방향제/습기제거제
+	-욕실/목욕용품
+	-기타 욕실잡화
+주방/조리/식기
+	-냄비
+	-후라이팬
+	-압력솥/주전자
+	-칼/조리기구
+	-주방잡화
+	-식기
+	-컵/머그/잔
+	-보관용기
+	-주방기구
+주방/TV/냉장고/세탁기
+	-주방가전
+	-생활가전/TV
+	-냉장고
+	-세탁기
+	-계절가전
+	-리퍼 가전
+컴퓨터/스마트폰/카메라
+	-컴퓨터/주변기기
+	-스마트폰/휴대폰
+	-디지털카메라
+	-카메라 주변기기
+	-모바일액세서리
+	-전자사전
+거실/침실 가구
+	-소파
+	-거실장/서랍장
+	-테이블
+	-스툴/의자
+	-침대
+	-돌침대
+	-매트리스
+	-장롱/옷장
+	-협탁/콘솔/화장대
+	-책상/의자/세트
+	-식탁/의자/세트
+	-학생/아동용가구
+	-기타 생활 가구
+
+
+
+그로서리
+	-수입오일/소스
+	-간편식/안주
+디저트
+	-베이커리/쿠키
+	-초콜릿/젤리/캔디
+차/커피/음료
+	-차
+	-과일차/청
+	-선물세트
+	-커피
+	-과일주스/이온음료
+건강식품/홍상
+	-홍삼/인삼/수삼
+	-비타민
+	-오메가/루테인
+	-칼슘/마그네슘/철분
+	-유산균
+	-콜라겐/다이어트
+	-초유/산양유
+	-꿀/프로폴리스
+	-기타 건강식품
+기프티콘
+	-스타벅스
+	-커피빈
+	-배스킨라빈스
+	-피그인더가든
+	-라그릴리아
+
+
+
+산지스토리관
+현대식품관투홈
+미식선물
+청과 큐레이션박스
+퓨이탄프라이드
+
+
+네비게이션
+
+스킨케어
+메이크업
+바디/헤어케어
+기능성케어
+향수/캔들
+미용기기/용품
+남성화장품
+BRAND SHOP
+
+
+& Other Stories
+CHANEL BEAUTY
+Dior
+아모레퍼시픽
+SISLEY
+L'OCCITANE
+CREED
+Hermès
+TOM FORD BEAUTY
+GUCCI BEAUTY
+LANCOME
+GUERLAIN
+
+
+Augustinus Bader
+GIVENCHY
+CLARINS
+LA MER
+LA PRAIRIE
+VALMONT
+Be CLEAN
+Oera
+SK-Ⅱ
+NARS
+메종 마르지엘라
+리바이리
+
+
+
+메이크업포에버
+NEW 아쿠아 레지스트 브로우 스컬프터
+
+
+
+화장품
+명품/잡화
+여성패션
+영캐주얼
+남성패션
+진/이지
+유아동/문화
+스포츠/레저
+리빙/가전
+식품
+
+
+
+핸드백/가방
+슈즈
+지갑/벨트
+시계
+악세사리
+기타잡화
+웨딩밴드 전문관
+
+
+Disney
+HOGAN
+MaiSon Margiela
+Mulberry
+JIMMY CHOO
+GOLDEN GOOSE
+TUMI
+Luxury boutique
+LONGINES
+LONGCHAMP
+루즈앤라운지
+덱케
+
+Manushka
+TOTEME
+매터스
+A GIFT PAGE
+vunque
+
+
+점퍼/코트/재킷
+티셔츠/블라우스/니트
+팬트/스커트
+여성정장
+가죽/모피
+언더웨어/이지웨어
+
+
+Nanushka
+COS
+TOTEME
+Rodebjer
+RALPH LAUREN
+COLLECTION
+GLOBAL EDITION
+TOM GREYHOUND
+FOURM STUDIO
+PICK & CHOOSE
+1423 Naivewater
+
+ADEKUVER
+0914
+HAZZYS
+JAMES PERSE
+TOMMY HILFIGER
+JILLSTUART NEW YORK
+
+
+
+티셔츠/셔츠/블라우스
+카디션/베스트/니트/스웨터
+팬츠/스커트
+정장/수트/원피스
+재킷/코트/점퍼
+가죽/모띠
+
+
+&Other Stories
+FOURM THE STORE
+ALLSAINTS
+SISLEY
+VOV
+G-CUT
+SJYP
+
+
+
+정장/수트
+재킷/점퍼/코트
+티셔츠/셔츠/니트/가디건
+팬츠
+패션소품
+캐주얼 의류
+남성 언더웨어/이지웨어
+
+
+Nanushka
+COS
+ZEGNA
+폼라운지
+RALPH LAUREN
+RRL
+Purple Label
+HAZZYS
+TOMMY HILFIGER
+SONGZIO
+Barbour
+
+Paul Smith
+
+
+티셔츠/셔츠/블라우스
+원피스/니트/가디건
+팬츠/스커트
+데님팬츠
+자켓/점퍼/코트
+
+
+PEER
+TOMMY HILFIGER
+GUESS
+Calvin Klein Jeans
+MLB
+VERUTUM
+NERDY
+
+
+
+유아의류
+아동의류
+유아동 잡화
+출산용품/스킨케어
+발육용품
+유모차/카시트
+문구/팬시/소품
+장난감/취미
+문화/서비스
+
+
+RALPH LAUREN
+TOMMY HILFIGER
+Pottery Barn Kids
+스토케
+봉쁘앙
+MLB키즈
+노스페이스키즈
+Daks Kids
+Hazzys Kids
+FILA KIDS
+Green Friends
+
+
+더현대닷컴 Culture H
+[컬쳐H] Gallery H
+[컬쳐H] Collectable
+[컬쳐H] Entertaining
+[컬쳐H] MOKA 현대어린이책미술관
+
+
+스포츠 의류
+스포츠 슈즈/잡화
+등산/아웃도어
+캠핑용품
+골프의류/용품
+수영/스키/보드/시즌
+BRAND 스포츠/레저
+
+
+나이키 전문관
+아디다스 전문관
+언더아머
+컨버스
+파리게이츠
+파타고니아
+아크테릭스
+노스페이스
+디스커버리
+컬럼비아
+VICTORINOX
+보드라이더스
+
+
+RVCA
+
+
+
+거실/침실 가구
+침구/카페트/커튼
+생활/인테리어
+바디/욕실용품
+주방/조리/식기
+컴퓨터/스마트폰/카메라
+주방/TV/냉장고/세탁기
+
+
+지누스
+Williams Sonoma
+west elm
+Pottery Barn
+Pottery Barn Kids
+LIVART Online
+BOSE
+드롱기
+스메그
+제이엘꼬께
+웨지우드
+로얄 코펜하겐
+
+
+LUSH
+
+
+산지스토리관
+그로서리
+디저트
+차/커피/음료
+건강식품/홍삼
+기프티콘
+
+
+정관장
+세노비스
+GNC
+명인명촌
+오설록
+쌍계명차
+
+	
+THE PET
+티셔츠
+아우터
+드레스
+올인원
+Acc
+리빙
+케어
+푸드
+
+
+몽슈슈
+위드토리
+비쇼네
+허글앤넬로
+코코스퀘어
+코니도기
+펫컴
+
+
+
+현대식품관 투홈
+현대Hmall
+현대백화점 DUTY FREE
+더한섬닷컴
+현대리바트몰
+현대렌탈케어
+H패션몰
+현대어린이책미술관
+그리팅
+한섬EQL
+관계사 site
+현대백화점 그룹
+현대백화점
+현대홈쇼핑
+현대그린푸드
+한섬
+현대리바트
+지누스
+현대L&C
+현대렌탈케어
+현대드림투어
+현대에버다임
+씨엔에스푸드시스템
+현대캐터링시스템
+현대IT&E
+현대퓨처넷
+현대이지웰
+현대바이오랜드
+벤디스
+	
+
+
